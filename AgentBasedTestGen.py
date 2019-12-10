@@ -1,8 +1,3 @@
-# cd git/cav/Technical/MAS/Q_learn
-# conda activate my_env
-# python game.py
-
-
 import sys
 import numpy as np
 import cv2
@@ -1454,9 +1449,9 @@ AV_y = 0						# AV start position along road
 default_reward	= -1 			# Living cost
 road_pen = -5					# Penalty for being in road
 
-display_grid = False			# Show the grid
+display_grid = True			# Show the grid
 diag = False					# What level of CL diagnostics to show
-loopAgentList = True 			# use nAlist to loop through nA
+loopAgentList = False 			# use nAlist to loop through nA
 
 # Choose the type of agent behaviou
 # 	RandAction	= take random actions
