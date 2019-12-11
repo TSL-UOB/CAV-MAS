@@ -30,3 +30,7 @@ If you wish to loop through a list of different agent numbers, as we did in our 
 The program will generate several logs for chacking random nuber generation, agents movement, scores per test, position and successful test logs.
 
 The values of diag can be set True to give some diagnostics of what the agents are doing and general debugging.
+
+To run use:
+
+python AgentBasedTestGen.py
