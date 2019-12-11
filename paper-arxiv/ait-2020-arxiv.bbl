@@ -1,0 +1,174 @@
+\begin{thebibliography}{10}
+
+\bibitem{bergeron2012writing}
+J.~Bergeron, {\em Writing testbenches functional verification of HDL models}.
+\newblock Springer Science Business Media, 2012.
+
+\bibitem{utting2012taxonomy}
+M.~Utting, A.~Pretschner, and B.~Legeard, ``A taxonomy of model-based testing
+  approaches,'' {\em Software Testing, Verification and Reliability}, vol.~22,
+  no.~5, pp.~297--312, 2012.
+
+\bibitem{ViennaConv}
+``Vienna convention on road traffic.'' \url{https://treaties.un.org}.
+\newblock Accessed: 2019-10-03.
+
+\bibitem{codes2015highway}
+``The {H}ighway {C}ode.'' \url{https://www.gov.uk/guidance/the-highway-code},
+  2015.
+\newblock Accessed: 2019-11-25.
+
+\bibitem{RoadTraffic1988}
+``Uk road traffic act 1988.''
+  \url{http://www.legislation.gov.uk/ukpga/1988/52/contents}.
+\newblock Accessed: 2019-10-03.
+
+\bibitem{arden2002international}
+W.~M. Arden, ``The international technology roadmap for semiconductors
+  perspectives and challenges for the next 15 years,'' {\em Current Opinion in
+  Solid State and Materials Science}, vol.~6, no.~5, pp.~371--377, 2002.
+
+\bibitem{HVC2015}
+D.~Araiza-Illan, D.~Western, A.~Pipe, and K.~Eder, ``Coverage-driven
+  verification - an approach to verify code for robots that directly interact
+  with humans,'' (Cham), pp.~69--84, Springer International Publishing, 2015.
+
+\bibitem{Ioannides:2012}
+C.~Ioannides and K.~I. Eder, ``Coverage-directed test generation automated by
+  machine learning -- a review,'' {\em ACM Trans. Des. Autom. Electron. Syst.},
+  vol.~17, pp.~7:1--7:21, Jan. 2012.
+
+\bibitem{kalra2016driving}
+N.~Kalra and S.~M. Paddock, ``Driving to safety: How many miles of driving
+  would it take to demonstrate autonomous vehicle reliability?,'' {\em
+  Transportation Research Part A Policy and Practice}, vol.~94, pp.~182--193,
+  2016.
+
+\bibitem{ITFroadSafety2018}
+I.~T. Forum, ``Road safety annual report.''
+  \url{https://www.itf-oecd.org/sites/default/files/docs/irtad-road-safety-annual-report-2018_2.pdf},
+  2018.
+\newblock Accessed: 2019-11-26.
+
+\bibitem{korosec2019waymo}
+K.~Korosec, ``Waymo's self driving cars hit 10 million miles.''
+  \url{https://techcrunch.com/2018/10/10/waymos-self-driving-cars-hit-10-million-miles},
+  2019.
+\newblock Accessed: 2019-11-26.
+
+\bibitem{Koopman2018}
+P.~Koopman and M.~Wagner, ``{Toward a Framework for Highly Automated Vehicle
+  Safety Validation},'' {\em SAE Technical Paper Series}, vol.~1, pp.~1--13,
+  2018.
+
+\bibitem{fewster1999software}
+M.~Fewster and D.~Graham, {\em Software test automation}.
+\newblock Addison-Wesley Reading, 1999.
+
+\bibitem{bordini2005jason}
+R.~H. Bordini, J.~F. H{\"u}bner, and R.~Vieira, ``Jason and the golden fleece
+  of agent-oriented programming,'' in {\em Multi-agent programming}, pp.~3--37,
+  Springer, 2005.
+
+\bibitem{Bordini2006}
+R.~H. Bordini, M.~Fisher, W.~Visser, and M.~Wooldridge, ``Verifying multi-agent
+  programs by model checking,'' {\em Autonomous Agents and Multi-Agent
+  Systems}, vol.~12, pp.~239--256, Mar 2006.
+
+\bibitem{Ulbrich2015}
+S.~Ulbrich, T.~Menzel, A.~Reschka, F.~Schuldt, and M.~Maurer, ``{Defining and
+  Substantiating the Terms Scene, Situation, and Scenario for Automated
+  Driving},'' {\em IEEE Conference on Intelligent Transportation Systems,
+  Proceedings, ITSC}, vol.~2015-Oct, pp.~982--988, 2015.
+
+\bibitem{StandardsBoard1990}
+I.~{Standards Board}, {\em {IEEE Standard Glossary of Software Engineering
+  Terminology}}.
+\newblock 1990.
+
+\bibitem{behbahani2019learning}
+F.~Behbahani, K.~Shiarlis, X.~Chen, V.~Kurin, S.~Kasewa, C.~Stirbu, J.~Gomes,
+  S.~Paul, F.~A. Oliehoek, J.~Messias, {\em et~al.}, ``Learning from
+  demonstration in the wild,'' in {\em 2019 International Conference on
+  Robotics and Automation (ICRA)}, pp.~775--781, IEEE, 2019.
+
+\bibitem{Koopman2016}
+P.~Koopman and M.~Wagner, ``{Challenges in Autonomous Vehicle Testing and
+  Validation},'' {\em SAE International Journal of Transportation Safety},
+  vol.~4, no.~1, pp.~15--24, 2016.
+
+\bibitem{Koopman2019}
+P.~Koopman and F.~Fratrik, ``{How many operational design domains, objects, and
+  events?},'' {\em CEUR Workshop Proceedings}, vol.~2301, pp.~1--4, 2019.
+
+\bibitem{Bagschik2018}
+G.~Bagschik, T.~Menzel, and M.~Maurer, ``{Ontology based Scene Creation for the
+  Development of Automated Vehicles},'' in {\em IEEE Intelligent Vehicles
+  Symposium, Proceedings}, vol.~2018-June, pp.~1813--1820, 2018.
+
+\bibitem{Menzel2018}
+T.~Menzel, G.~Bagschik, and M.~Maurer, ``{Scenarios for Development, Test and
+  Validation of Automated Vehicles},'' 2018.
+
+\bibitem{Hallerbach2018}
+S.~Hallerbach, Y.~Xia, U.~Eberle, and F.~Koester, ``{Simulation-Based
+  Identification of Critical Scenarios for Cooperative and Automated
+  Vehicles},'' {\em SAE International Journal of Connected and Automated
+  Vehicles}, vol.~1, no.~2, 2018.
+
+\bibitem{Mullins2018}
+G.~E. Mullins, P.~G. Stankiewicz, R.~C. Hawthorne, and S.~K. Gupta, ``{Adaptive
+  generation of challenging scenarios for testing and evaluation of autonomous
+  vehicles},'' {\em Journal of Systems and Software}, vol.~137, pp.~197--215,
+  mar 2018.
+
+\bibitem{Saigol2018}
+Z.~Saigol and A.~Peters, ``{Verifying automated driving systems in simulation
+  framework and challenges},'' {\em 25th ITS World Congress}, no.~September,
+  pp.~17--21, 2018.
+
+\bibitem{Rocklage2017}
+E.~Rocklage, H.~Kraft, A.~Karatas, and J.~J. Seewig, ``{Automated Scenario
+  Generation for Regression Testing of Autonomous Vehicles},'' oct 2017.
+
+\bibitem{Tuncali2019}
+C.~E. Tuncali and G.~Fainekos, ``{Rapidly-exploring Random Trees for Testing
+  Automated Vehicles},'' {\em 22nd IEEE Intelligent Transportation Systems
+  Conference (ITSC 2019)}, pp.~661--666, 2019.
+
+\bibitem{georgeff1987reactive}
+M.~P. Georgeff and A.~L. Lansky, ``Reactive reasoning and planning.,'' in {\em
+  AAAI}, vol.~87, pp.~677--682, 1987.
+
+\bibitem{georgeff1988communication}
+M.~Georgeff, ``Communication and interaction in multi-agent planning,'' in {\em
+  Readings in distributed artificial intelligence}, pp.~200--204, Elsevier,
+  1988.
+
+\bibitem{Araiza-Illan2016}
+D.~Araiza-Illan, A.~G. Pipe, and K.~Eder, ``{Intelligent agent-based
+  stimulation for testing robotic software in human-robot interactions},'' {\em
+  ACM International Conference Proceeding Series}, pp.~9--16, 2016.
+
+\bibitem{Enoiu2019}
+E.~P. Enoiu and M.~Frasheri, ``{Test Agents: The Next Generation of Test
+  Cases},'' {\em 2nd IEEE Workshop on NEXt level of Test Automation}, 2019.
+
+\bibitem{Tuncali2018}
+C.~E. Tuncali, G.~Fainekos, H.~Ito, and J.~Kapinski, ``{Simulation-based
+  Adversarial Test Generation for Autonomous Vehicles with Machine Learning
+  Components},'' in {\em IEEE Intelligent Vehicles Symposium, Proceedings},
+  vol.~2018-June, pp.~1555--1562, IEEE, jun 2018.
+
+\bibitem{Eder2007}
+K.~Eder, P.~Flach, and H.~W. Hsueh, ``{Towards automating simulation-based
+  design verification using ILP},'' {\em Lecture Notes in Computer Science},
+  vol.~4455 LNAI, pp.~154--168, 2007.
+
+\bibitem{Zoumpoulaki2010}
+A.~Zoumpoulaki, N.~Avradinis, and S.~Vosinakis, ``{A Multi-Agent Simulation
+  Framework for Emergency Evacuations Incorporating Personality and
+  Emotions},'' in {\em Hellenic Conference on Artificial Intelligence.
+  Springer, Berlin, Heidelberg, 2010.}, pp.~423--428, 2010.
+
+\end{thebibliography}
