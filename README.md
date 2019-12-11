@@ -25,6 +25,9 @@ Please see the paper for details of the test generation strategies. The agent be
 2 for prximity
 3 for election
 
+Example of the Random with 10 agents
+![](random.gif)
+
 If you wish to loop through a list of different agent numbers, as we did in our tests then set loopAgentList = True and the program will record data for the agent numbers in nAList which is set to [1,2,3,4,5,6,7,8,9,10,15,20]
 
 The program will generate several logs for chacking random nuber generation, agents movement, scores per test, position and successful test logs.
