@@ -60,9 +60,9 @@ class Environment(object):
 
 		self.frame = np.zeros((self.gridH * self.scale, self.gridW * self.scale, 3), np.uint8)	
 		
-		for position in self.blocked_positions:			
-			y, x = position			
-			cv2.rectangle(self.frame, (x*self.scale, y*self.scale), ((x+1)*self.scale, (y+1)*self.scale), (100, 100, 100), -1)
+		# for position in self.blocked_positions:			
+		# 	y, x = position			
+		# 	cv2.rectangle(self.frame, (x*self.scale, y*self.scale), ((x+1)*self.scale, (y+1)*self.scale), (100, 100, 100), -1)
 		
 		for position, reward in zip(self.road_positions, self.road_rewards):
 			text = str(int(reward))
@@ -72,8 +72,8 @@ class Environment(object):
 			font = cv2.FONT_HERSHEY_SIMPLEX
 			y, x = position		
 			(w, h), _ = cv2.getTextSize(text, font, 1, 2)
-			cv2.rectangle(self.frame, (x*self.scale, y*self.scale), ((x+1)*self.scale, (y+1)*self.scale), (100, 100, 100), -1) #from blocked positions
-			cv2.putText(self.frame, text, (int((x+0.5)*self.scale-w/2), int((y+0.5)*self.scale+h/2)), font, 1, color, 2, cv2.LINE_AA)	
+			#cv2.rectangle(self.frame, (x*self.scale, y*self.scale), ((x+1)*self.scale, (y+1)*self.scale), (100, 100, 100), -1) #from blocked positions
+			#cv2.putText(self.frame, text, (int((x+0.5)*self.scale-w/2), int((y+0.5)*self.scale+h/2)), font, 1, color, 2, cv2.LINE_AA)	
 
 		for position, reward in zip(self.end_positions, self.end_rewards):
 			text = str(int(reward))
@@ -107,10 +107,10 @@ class Environment(object):
 		#clear the board of previous blocked positions
 		self.frame = np.zeros((self.gridH * self.scale, self.gridW * self.scale, 3), np.uint8)	
 
-		#update blocked positions
-		for position in self.blocked_positions:			
-			y, x = position			
-			cv2.rectangle(self.frame, (x*self.scale, y*self.scale), ((x+1)*self.scale, (y+1)*self.scale), (100, 100, 100), -1)
+		# #update blocked positions
+		# for position in self.blocked_positions:			
+		# 	y, x = position			
+		# 	cv2.rectangle(self.frame, (x*self.scale, y*self.scale), ((x+1)*self.scale, (y+1)*self.scale), (100, 100, 100), -1)
 
 		# update the road rewards
 		for position, reward in zip(self.road_positions, self.road_rewards):
@@ -122,7 +122,7 @@ class Environment(object):
 			y, x = position		
 			(w, h), _ = cv2.getTextSize(text, font, 1, 2)
 			#cv2.rectangle(self.frame, (x*self.scale, y*self.scale), ((x+1)*self.scale, (y+1)*self.scale), (100, 100, 100), -1) #from blocked positions
-			cv2.putText(self.frame, text, (int((x+0.5)*self.scale-w/2), int((y+0.5)*self.scale+h/2)), font, 0.5, color, 1, cv2.LINE_AA)	
+			#cv2.putText(self.frame, text, (int((x+0.5)*self.scale-w/2), int((y+0.5)*self.scale+h/2)), font, 0.5, color, 1, cv2.LINE_AA)	
 
 		#GC update the position of the AV and rewards
 		for position, reward in zip(self.end_positions, self.end_rewards):
@@ -135,7 +135,8 @@ class Environment(object):
 			font = cv2.FONT_HERSHEY_SIMPLEX
 			y, x = position		
 			(w, h), _ = cv2.getTextSize(text, font, 1, 2)
-			cv2.putText(self.frame, text, (int((x+0.5)*self.scale-w/2), int((y+0.5)*self.scale+h/2)), font, 0.5, color, 1, cv2.LINE_AA)
+			cv2.rectangle(self.frame, (x*self.scale, y*self.scale), ((x+1)*self.scale, (y+1)*self.scale), (100, 100, 100), -1) #from blocked positions
+			# cv2.putText(self.frame, text, (int((x+0.5)*self.scale-w/2), int((y+0.5)*self.scale+h/2)), font, 0.5, color, 1, cv2.LINE_AA)
 
 	def percepts(self, AV_state):
 		
@@ -1368,7 +1369,7 @@ def moveAV(gridW,gridH,AV_y):
 	AVpositionMaxtrix[[2,3,4,5],AV_y]=1
 	return AVpositionMaxtrix
 
-def MASrender(simTime, nA, agentState):
+def MASrender(simTime, nA, agentState, score):
 		
 	frame = env.frame.copy()
 		
@@ -1396,6 +1397,20 @@ def MASrender(simTime, nA, agentState):
 		#time.sleep(1)
 		
 	#======================================
+	
+	#print score
+	text = 'score = ' + str(int(score))
+	color = (0,0,255)
+	font = cv2.FONT_HERSHEY_SIMPLEX
+	y = gridH - 2
+	x =  4
+	(w, h), _ = cv2.getTextSize(text, font, 1, 2)
+	x1, y1  = (int((x+0)*env.scale-w/2), int((y+1)*env.scale+h/2))
+	x2, y2  = (int((x+9)*env.scale-w/2), int((y-0.9)*env.scale+h/2))
+	cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 0, 0), -1)
+	cv2.putText(frame, text, (int((x+0.5)*env.scale-w/2), int((y+0.5)*env.scale+h/2)), font, 1, color, 2, cv2.LINE_AA)
+
+
 	cv2.imshow('frame', frame)
 	cv2.moveWindow('frame', 0, 0)
 	key = cv2.waitKey(10)
@@ -1453,7 +1468,7 @@ display_grid = True			# Show the grid
 diag = False					# What level of CL diagnostics to show
 loopAgentList = False 			# use nAlist to loop through nA
 
-# Choose the type of agent behaviou
+# Choose the type of agent behaviour
 # 	RandAction	= take random actions
 # 	RandBehaviour = walk pavements, randomly cross road with 1/11 chance
 # 	Proximity = cross when agent within specified radius
@@ -1486,7 +1501,7 @@ for nA in nAList:
 	roadPenaltyMaxtrix[:,pavement_rows] = default_reward
 
 	road_positions = [(i,j) for j in range(0,gridW) for i in [2,3,4,5,6,7,8,9]] 
-	road_rewards 	= [road_pen for i in range(4*gridH)] 
+	road_rewards = [road_pen for i in range(4*gridH)] 
 
 	AV_y = 0
 	AV_x = [2,3,4,5]
@@ -1499,7 +1514,7 @@ for nA in nAList:
 
 	start_pos = None
 	end_positions = [(2,0),(3,0),(4,0),(5,0)] 	# initial AV position
-	end_rewards = [0,0,0,0] 					# Rewards moved out of panalty matrix
+	end_rewards = [0,0,0,0] 					# Rewards moved out of penalty matrix
 
 	# record agentStates and excluded start positions
 	exclusions = np.empty(shape=(nA,2)) #ID, xy
@@ -1568,9 +1583,9 @@ for nA in nAList:
 
 	# Display the grid lines, q-values, agent positions
 	if display_grid:
-		MASrender(simTime, nA, agentState)
+		MASrender(simTime, nA, agentState, validTests)
 		#env.render(agent.qvalues, running_score, simTime, nA, agentState)
-	time.sleep(delay)
+	# time.sleep(delay)
 	# state = env.get_state()
 
 
@@ -1622,7 +1637,7 @@ for nA in nAList:
 		running_score = running_score + reward
 		if display_grid:
 			# env.render(agent.qvalues, running_score, simTime, nA, agentState)
-			MASrender(simTime, nA, agentState)
+			MASrender(simTime, nA, agentState, validTests)
 		# next_state_possible_actions = env.get_possible_actions()
 		# agent.feat_q_update(state, AV_state, action, reward, next_state, next_state_possible_actions, done, features, q_val_dash)
 		# state = next_state
@@ -1679,7 +1694,7 @@ for nA in nAList:
 
 				env.reset_state()
 				if display_grid:
-					MASrender(simTime, nA, agentState)
+					MASrender(simTime, nA, agentState, validTests)
 					# env.render(agent.qvalues, running_score, simTime, nA, agentState)
 				state = env.get_state()
 				running_score = 0
@@ -1741,7 +1756,7 @@ for nA in nAList:
 				continue
 			AV_state = (AV_x,AV_y)
 			if display_grid:
-				MASrender(simTime, nA, agentState)
+				MASrender(simTime, nA, agentState, validTests)
 				# env.render(agent.qvalues, running_score, simTime, nA, agentState)
 
 		# if you want to manually step through each tick

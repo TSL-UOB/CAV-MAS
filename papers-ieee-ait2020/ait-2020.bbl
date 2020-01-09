@@ -1,0 +1,1163 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{Araiza-Illan2016}{article}{}
+      \name{author}{3}{}{%
+        {{hash=8ef2dde927f863e1488b85e18eebbc01}{%
+           family={Araiza-Illan},
+           familyi={A\bibinithyphendelim I\bibinitperiod},
+           given={Dejanira},
+           giveni={D\bibinitperiod}}}%
+        {{hash=884cb4edad664bc3b42c2483f30c648b}{%
+           family={Pipe},
+           familyi={P\bibinitperiod},
+           given={Anthony\bibnamedelima G.},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=7c6ad14b250cf6c8ba8e92e4ad94f196}{%
+           family={Eder},
+           familyi={E\bibinitperiod},
+           given={Kerstin},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{cd9135e6ed57a9f6ccc7a69c2613c09e}
+      \strng{fullhash}{cd9135e6ed57a9f6ccc7a69c2613c09e}
+      \strng{bibnamehash}{cd9135e6ed57a9f6ccc7a69c2613c09e}
+      \strng{authorbibnamehash}{cd9135e6ed57a9f6ccc7a69c2613c09e}
+      \strng{authornamehash}{cd9135e6ed57a9f6ccc7a69c2613c09e}
+      \strng{authorfullhash}{cd9135e6ed57a9f6ccc7a69c2613c09e}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{ACM International Conference Proceeding Series}
+      \field{title}{{Intelligent agent-based stimulation for testing robotic software in human-robot interactions}}
+      \field{year}{2016}
+      \field{pages}{9\bibrangedash 16}
+      \range{pages}{8}
+    \endentry
+    \entry{HVC2015}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=8ef2dde927f863e1488b85e18eebbc01}{%
+           family={Araiza-Illan},
+           familyi={A\bibinithyphendelim I\bibinitperiod},
+           given={Dejanira},
+           giveni={D\bibinitperiod}}}%
+        {{hash=7f13a7211fc09b8604d10b0fa4dd0af4}{%
+           family={Western},
+           familyi={W\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=85f16df7fc99d99ed90c3d1d6febc671}{%
+           family={Pipe},
+           familyi={P\bibinitperiod},
+           given={Anthony},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7c6ad14b250cf6c8ba8e92e4ad94f196}{%
+           family={Eder},
+           familyi={E\bibinitperiod},
+           given={Kerstin},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{30dff2404420ff4ce711b5eb4b8019fd}
+      \strng{fullhash}{30dff2404420ff4ce711b5eb4b8019fd}
+      \strng{bibnamehash}{30dff2404420ff4ce711b5eb4b8019fd}
+      \strng{authorbibnamehash}{30dff2404420ff4ce711b5eb4b8019fd}
+      \strng{authornamehash}{30dff2404420ff4ce711b5eb4b8019fd}
+      \strng{authorfullhash}{30dff2404420ff4ce711b5eb4b8019fd}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Coverage-Driven Verification An approach to verify code for robots that directly interact with humans}
+      \field{year}{2015}
+      \field{pages}{69\bibrangedash 84}
+      \range{pages}{16}
+    \endentry
+    \entry{arden2002international}{article}{}
+      \name{author}{1}{}{%
+        {{hash=b041049de54f018b53389c361c859448}{%
+           family={Arden},
+           familyi={A\bibinitperiod},
+           given={Wolfgang\bibnamedelima M},
+           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{b041049de54f018b53389c361c859448}
+      \strng{fullhash}{b041049de54f018b53389c361c859448}
+      \strng{bibnamehash}{b041049de54f018b53389c361c859448}
+      \strng{authorbibnamehash}{b041049de54f018b53389c361c859448}
+      \strng{authornamehash}{b041049de54f018b53389c361c859448}
+      \strng{authorfullhash}{b041049de54f018b53389c361c859448}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Current Opinion in Solid State and Materials Science}
+      \field{number}{5}
+      \field{title}{The international technology roadmap for semiconductors perspectives and challenges for the next 15 years}
+      \field{volume}{6}
+      \field{year}{2002}
+      \field{pages}{371\bibrangedash 377}
+      \range{pages}{7}
+    \endentry
+    \entry{Bagschik2018}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=46311fa1f412e2f9b1c24fa7fc353e69}{%
+           family={Bagschik},
+           familyi={B\bibinitperiod},
+           given={Gerrit},
+           giveni={G\bibinitperiod}}}%
+        {{hash=d83c185f62666ee71df1e11617fa08e6}{%
+           family={Menzel},
+           familyi={M\bibinitperiod},
+           given={Till},
+           giveni={T\bibinitperiod}}}%
+        {{hash=4494753eefa828e7273b9373b7588d9b}{%
+           family={Maurer},
+           familyi={M\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{fac0c549de71e7b7f0c49d683c455db3}
+      \strng{fullhash}{fac0c549de71e7b7f0c49d683c455db3}
+      \strng{bibnamehash}{fac0c549de71e7b7f0c49d683c455db3}
+      \strng{authorbibnamehash}{fac0c549de71e7b7f0c49d683c455db3}
+      \strng{authornamehash}{fac0c549de71e7b7f0c49d683c455db3}
+      \strng{authorfullhash}{fac0c549de71e7b7f0c49d683c455db3}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{IEEE Intelligent Vehicles Symposium, Proceedings}
+      \field{title}{{Ontology based Scene Creation for the Development of Automated Vehicles}}
+      \field{volume}{2018-June}
+      \field{year}{2018}
+      \field{pages}{1813\bibrangedash 1820}
+      \range{pages}{8}
+    \endentry
+    \entry{behbahani2019learning}{inproceedings}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=a9723777c9560d51c9b06e494ea6afbd}{%
+           family={Behbahani},
+           familyi={B\bibinitperiod},
+           given={Feryal},
+           giveni={F\bibinitperiod}}}%
+        {{hash=bad9252290b930ed0a51854cbb12e455}{%
+           family={Shiarlis},
+           familyi={S\bibinitperiod},
+           given={Kyriacos},
+           giveni={K\bibinitperiod}}}%
+        {{hash=c6649d02b24225ca4c9012cee6c790de}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Xi},
+           giveni={X\bibinitperiod}}}%
+        {{hash=41120cd3ecef9fc9fa0bf14a7f0db310}{%
+           family={Kurin},
+           familyi={K\bibinitperiod},
+           given={Vitaly},
+           giveni={V\bibinitperiod}}}%
+        {{hash=10486a8e0a3e500612578c86935efec6}{%
+           family={Kasewa},
+           familyi={K\bibinitperiod},
+           given={Sudhanshu},
+           giveni={S\bibinitperiod}}}%
+        {{hash=efb1e0046d2e0755bfe21ff5899c72c4}{%
+           family={Stirbu},
+           familyi={S\bibinitperiod},
+           given={Ciprian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=5933bdc497c73a3043e992da0c685aa8}{%
+           family={Gomes},
+           familyi={G\bibinitperiod},
+           given={Jo{\~{a}}o},
+           giveni={J\bibinitperiod}}}%
+        {{hash=95ee43f679a9745f50613ea8bce25a1d}{%
+           family={Paul},
+           familyi={P\bibinitperiod},
+           given={Supratik},
+           giveni={S\bibinitperiod}}}%
+        {{hash=22e588f0da3d41e35a396073f29e0e23}{%
+           family={Oliehoek},
+           familyi={O\bibinitperiod},
+           given={Frans\bibnamedelima A},
+           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=fe295258e96f8f8c2de49f0e4aa2a671}{%
+           family={Messias},
+           familyi={M\bibinitperiod},
+           given={Jo{\~{a}}o},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{81e56d02a33f738264cff3d5e33fb104}
+      \strng{fullhash}{96d6621d8016713d2d24c7fba1b65b68}
+      \strng{bibnamehash}{81e56d02a33f738264cff3d5e33fb104}
+      \strng{authorbibnamehash}{81e56d02a33f738264cff3d5e33fb104}
+      \strng{authornamehash}{81e56d02a33f738264cff3d5e33fb104}
+      \strng{authorfullhash}{96d6621d8016713d2d24c7fba1b65b68}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2019 International Conference on Robotics and Automation (ICRA)}
+      \field{title}{Learning from demonstration in the wild}
+      \field{year}{2019}
+      \field{pages}{775\bibrangedash 781}
+      \range{pages}{7}
+    \endentry
+    \entry{bergeron2012writing}{book}{}
+      \name{author}{1}{}{%
+        {{hash=f69f4007d3ae9e68699445e95362d552}{%
+           family={Bergeron},
+           familyi={B\bibinitperiod},
+           given={Janick},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Science Business Media}%
+      }
+      \strng{namehash}{f69f4007d3ae9e68699445e95362d552}
+      \strng{fullhash}{f69f4007d3ae9e68699445e95362d552}
+      \strng{bibnamehash}{f69f4007d3ae9e68699445e95362d552}
+      \strng{authorbibnamehash}{f69f4007d3ae9e68699445e95362d552}
+      \strng{authornamehash}{f69f4007d3ae9e68699445e95362d552}
+      \strng{authorfullhash}{f69f4007d3ae9e68699445e95362d552}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Writing testbenches functional verification of HDL models}
+      \field{year}{2012}
+    \endentry
+    \entry{Bordini2006}{article}{}
+      \name{author}{4}{}{%
+        {{hash=39e25caf193fc2a472345c6ed82c17e9}{%
+           family={Bordini},
+           familyi={B\bibinitperiod},
+           given={Rafael\bibnamedelima H.},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=a32032773e127643a14d731385f97664}{%
+           family={Fisher},
+           familyi={F\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e321f08a06144b359de2bacca6cfe522}{%
+           family={Visser},
+           familyi={V\bibinitperiod},
+           given={Willem},
+           giveni={W\bibinitperiod}}}%
+        {{hash=1dbead6bb535576afc14adfe5a5c42bb}{%
+           family={Wooldridge},
+           familyi={W\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{fb5898a39c87bd3063d180480aaecb8a}
+      \strng{fullhash}{fb5898a39c87bd3063d180480aaecb8a}
+      \strng{bibnamehash}{fb5898a39c87bd3063d180480aaecb8a}
+      \strng{authorbibnamehash}{fb5898a39c87bd3063d180480aaecb8a}
+      \strng{authornamehash}{fb5898a39c87bd3063d180480aaecb8a}
+      \strng{authorfullhash}{fb5898a39c87bd3063d180480aaecb8a}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Autonomous Agents and Multi-Agent Systems}
+      \field{month}{3}
+      \field{number}{2}
+      \field{title}{Verifying Multi-agent Programs by Model Checking}
+      \field{volume}{12}
+      \field{year}{2006}
+      \field{pages}{239\bibrangedash 256}
+      \range{pages}{18}
+    \endentry
+    \entry{bordini2005jason}{incollection}{}
+      \name{author}{3}{}{%
+        {{hash=e5726f401ccaf04a6ee4e8b8de921438}{%
+           family={Bordini},
+           familyi={B\bibinitperiod},
+           given={Rafael\bibnamedelima H},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=079a28bcdd57b46bb8630dcba580a532}{%
+           family={H{\"{u}}bner},
+           familyi={H\bibinitperiod},
+           given={Jomi\bibnamedelima F},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=8e7bb29aea221599616ef4f42cfb762a}{%
+           family={Vieira},
+           familyi={V\bibinitperiod},
+           given={Renata},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{f5adb4fb34274446dddcc3b897d06a67}
+      \strng{fullhash}{f5adb4fb34274446dddcc3b897d06a67}
+      \strng{bibnamehash}{f5adb4fb34274446dddcc3b897d06a67}
+      \strng{authorbibnamehash}{f5adb4fb34274446dddcc3b897d06a67}
+      \strng{authornamehash}{f5adb4fb34274446dddcc3b897d06a67}
+      \strng{authorfullhash}{f5adb4fb34274446dddcc3b897d06a67}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Multi-agent programming}
+      \field{title}{Jason and the Golden Fleece of agent-oriented programming}
+      \field{year}{2005}
+      \field{pages}{3\bibrangedash 37}
+      \range{pages}{35}
+    \endentry
+    \entry{Eder2007}{article}{}
+      \name{author}{3}{}{%
+        {{hash=7c6ad14b250cf6c8ba8e92e4ad94f196}{%
+           family={Eder},
+           familyi={E\bibinitperiod},
+           given={Kerstin},
+           giveni={K\bibinitperiod}}}%
+        {{hash=715b97044ba694410083d16b5c29b92c}{%
+           family={Flach},
+           familyi={F\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=483a80e789b069b1884882b4f7300959}{%
+           family={Hsueh},
+           familyi={H\bibinitperiod},
+           given={Hsiou\bibnamedelima Wen},
+           giveni={H\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9b753f29fc67e031cb81379f57b92537}
+      \strng{fullhash}{9b753f29fc67e031cb81379f57b92537}
+      \strng{bibnamehash}{9b753f29fc67e031cb81379f57b92537}
+      \strng{authorbibnamehash}{9b753f29fc67e031cb81379f57b92537}
+      \strng{authornamehash}{9b753f29fc67e031cb81379f57b92537}
+      \strng{authorfullhash}{9b753f29fc67e031cb81379f57b92537}
+      \field{sortinit}{E}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Lecture Notes in Computer Science}
+      \field{title}{{Towards automating simulation-based design verification using ILP}}
+      \field{volume}{4455 LNAI}
+      \field{year}{2007}
+      \field{pages}{154\bibrangedash 168}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1007/978-3-540-73847-3_20
+      \endverb
+    \endentry
+    \entry{Enoiu2019}{article}{}
+      \name{author}{2}{}{%
+        {{hash=256ddad785f64fe238c4349da2f0f90d}{%
+           family={Enoiu},
+           familyi={E\bibinitperiod},
+           given={Eduard\bibnamedelima Paul},
+           giveni={E\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=9a8b648975e75f702e64380406b75e71}{%
+           family={Frasheri},
+           familyi={F\bibinitperiod},
+           given={Mirgita},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{79d044d0ab41760b7791af9f9cb4a21a}
+      \strng{fullhash}{79d044d0ab41760b7791af9f9cb4a21a}
+      \strng{bibnamehash}{79d044d0ab41760b7791af9f9cb4a21a}
+      \strng{authorbibnamehash}{79d044d0ab41760b7791af9f9cb4a21a}
+      \strng{authornamehash}{79d044d0ab41760b7791af9f9cb4a21a}
+      \strng{authorfullhash}{79d044d0ab41760b7791af9f9cb4a21a}
+      \field{sortinit}{E}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2nd IEEE Workshop on NEXt level of Test Automation}
+      \field{title}{{Test Agents: The Next Generation of Test Cases}}
+      \field{year}{2019}
+    \endentry
+    \entry{EURO-NCAP}{report}{}
+      \name{author}{1}{}{%
+        {{hash=3bc08809d21fab270ea8da9a4a15ba22}{%
+           family={EURO-NCAP},
+           familyi={E\bibinithyphendelim N\bibinitperiod}}}%
+      }
+      \strng{namehash}{3bc08809d21fab270ea8da9a4a15ba22}
+      \strng{fullhash}{3bc08809d21fab270ea8da9a4a15ba22}
+      \strng{bibnamehash}{3bc08809d21fab270ea8da9a4a15ba22}
+      \strng{authorbibnamehash}{3bc08809d21fab270ea8da9a4a15ba22}
+      \strng{authornamehash}{3bc08809d21fab270ea8da9a4a15ba22}
+      \strng{authorfullhash}{3bc08809d21fab270ea8da9a4a15ba22}
+      \field{sortinit}{E}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://cdn.euroncap.com/media/43381/euro-ncap-aeb-vru-test-protocol-v204.pdf}}
+      \field{note}{Accessed: 2019-12-13}
+      \field{title}{{EUROPEAN NEW CAR ASSESSMENT PROGRAMME (Euro NCAP) V2.0.4}}
+      \field{type}{techreport}
+    \endentry
+    \entry{fewster1999software}{book}{}
+      \name{author}{2}{}{%
+        {{hash=48b4ff78da22708a16b99f422cc0fbd3}{%
+           family={Fewster},
+           familyi={F\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+        {{hash=424c8fd0f401c0326370dfcad8652a3a}{%
+           family={Graham},
+           familyi={G\bibinitperiod},
+           given={Dorothy},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Addison-Wesley Reading}%
+      }
+      \strng{namehash}{fa30fc87076d6104df907f0fae86cf27}
+      \strng{fullhash}{fa30fc87076d6104df907f0fae86cf27}
+      \strng{bibnamehash}{fa30fc87076d6104df907f0fae86cf27}
+      \strng{authorbibnamehash}{fa30fc87076d6104df907f0fae86cf27}
+      \strng{authornamehash}{fa30fc87076d6104df907f0fae86cf27}
+      \strng{authorfullhash}{fa30fc87076d6104df907f0fae86cf27}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Software test automation}
+      \field{year}{1999}
+    \endentry
+    \entry{ITFroadSafety2018}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b532114b4a4eacb50e2a49f49846c7a5}{%
+           family={Forum},
+           familyi={F\bibinitperiod},
+           given={International\bibnamedelima Transport},
+           giveni={I\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{b532114b4a4eacb50e2a49f49846c7a5}
+      \strng{fullhash}{b532114b4a4eacb50e2a49f49846c7a5}
+      \strng{bibnamehash}{b532114b4a4eacb50e2a49f49846c7a5}
+      \strng{authorbibnamehash}{b532114b4a4eacb50e2a49f49846c7a5}
+      \strng{authornamehash}{b532114b4a4eacb50e2a49f49846c7a5}
+      \strng{authorfullhash}{b532114b4a4eacb50e2a49f49846c7a5}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.itf-oecd.org/sites/default/files/docs/irtad-road-safety-annual-report-2018_2.pdf}}
+      \field{note}{Accessed: 2019-11-26}
+      \field{title}{Road Safety Annual Report}
+      \field{year}{2018}
+    \endentry
+    \entry{georgeff1988communication}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=a66e423abb1fad9de780171f73364632}{%
+           family={Georgeff},
+           familyi={G\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{a66e423abb1fad9de780171f73364632}
+      \strng{fullhash}{a66e423abb1fad9de780171f73364632}
+      \strng{bibnamehash}{a66e423abb1fad9de780171f73364632}
+      \strng{authorbibnamehash}{a66e423abb1fad9de780171f73364632}
+      \strng{authornamehash}{a66e423abb1fad9de780171f73364632}
+      \strng{authorfullhash}{a66e423abb1fad9de780171f73364632}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Readings in distributed artificial intelligence}
+      \field{title}{Communication and interaction in multi-agent planning}
+      \field{year}{1988}
+      \field{pages}{200\bibrangedash 204}
+      \range{pages}{5}
+    \endentry
+    \entry{georgeff1987reactive}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=e38c3000b4e7a8f9fb5412bf3a8d375a}{%
+           family={Georgeff},
+           familyi={G\bibinitperiod},
+           given={Michael\bibnamedelima P},
+           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=6384aaf54af8bcdcca1e001ca4796e5a}{%
+           family={Lansky},
+           familyi={L\bibinitperiod},
+           given={Amy\bibnamedelima L},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{d41dc0a16010b5fba2aae432ce580ca9}
+      \strng{fullhash}{d41dc0a16010b5fba2aae432ce580ca9}
+      \strng{bibnamehash}{d41dc0a16010b5fba2aae432ce580ca9}
+      \strng{authorbibnamehash}{d41dc0a16010b5fba2aae432ce580ca9}
+      \strng{authornamehash}{d41dc0a16010b5fba2aae432ce580ca9}
+      \strng{authorfullhash}{d41dc0a16010b5fba2aae432ce580ca9}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{AAAI}
+      \field{title}{Reactive reasoning and planning.}
+      \field{volume}{87}
+      \field{year}{1987}
+      \field{pages}{677\bibrangedash 682}
+      \range{pages}{6}
+    \endentry
+    \entry{Hallerbach2018}{article}{}
+      \name{author}{4}{}{%
+        {{hash=ac605d8cc1ff311448f1bf5a91919b96}{%
+           family={Hallerbach},
+           familyi={H\bibinitperiod},
+           given={Sven},
+           giveni={S\bibinitperiod}}}%
+        {{hash=d2f02d16c979bd508ecacd89fd1a04f9}{%
+           family={Xia},
+           familyi={X\bibinitperiod},
+           given={Yiqun},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=0ec2c29969f2c585a59c112490dcdfc4}{%
+           family={Eberle},
+           familyi={E\bibinitperiod},
+           given={Ulrich},
+           giveni={U\bibinitperiod}}}%
+        {{hash=d77edaff2b0e72b4ab9d917e5ff4ec5f}{%
+           family={Koester},
+           familyi={K\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{243a114fc82b941f9664e19210f7f5a1}
+      \strng{fullhash}{243a114fc82b941f9664e19210f7f5a1}
+      \strng{bibnamehash}{243a114fc82b941f9664e19210f7f5a1}
+      \strng{authorbibnamehash}{243a114fc82b941f9664e19210f7f5a1}
+      \strng{authornamehash}{243a114fc82b941f9664e19210f7f5a1}
+      \strng{authorfullhash}{243a114fc82b941f9664e19210f7f5a1}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{SAE International Journal of Connected and Automated Vehicles}
+      \field{number}{2}
+      \field{title}{{Simulation-Based Identification of Critical Scenarios for Cooperative and Automated Vehicles}}
+      \field{volume}{1}
+      \field{year}{2018}
+    \endentry
+    \entry{Ioannides:2012}{article}{}
+      \name{author}{2}{}{%
+        {{hash=c1a5f103b8bc486cf95be0eff9133180}{%
+           family={Ioannides},
+           familyi={I\bibinitperiod},
+           given={Charalambos},
+           giveni={C\bibinitperiod}}}%
+        {{hash=77ce6b9c501ce750e26341d2e307da90}{%
+           family={Eder},
+           familyi={E\bibinitperiod},
+           given={Kerstin\bibnamedelima I.},
+           giveni={K\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{bad1aa94618ad7ad83517c6a5b93ac7e}
+      \strng{fullhash}{bad1aa94618ad7ad83517c6a5b93ac7e}
+      \strng{bibnamehash}{bad1aa94618ad7ad83517c6a5b93ac7e}
+      \strng{authorbibnamehash}{bad1aa94618ad7ad83517c6a5b93ac7e}
+      \strng{authornamehash}{bad1aa94618ad7ad83517c6a5b93ac7e}
+      \strng{authorfullhash}{bad1aa94618ad7ad83517c6a5b93ac7e}
+      \field{sortinit}{I}
+      \field{sortinithash}{320bc8fe8101b9376f9f21cd507de0e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ACM Trans. Des. Autom. Electron. Syst.}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Coverage-Directed Test Generation Automated by Machine Learning -- A Review}
+      \field{volume}{17}
+      \field{year}{2012}
+      \field{pages}{7:1\bibrangedash 7:21}
+      \range{pages}{-1}
+    \endentry
+    \entry{kalra2016driving}{article}{}
+      \name{author}{2}{}{%
+        {{hash=db3d3fe18d31176b125a853bf84e029b}{%
+           family={Kalra},
+           familyi={K\bibinitperiod},
+           given={Nidhi},
+           giveni={N\bibinitperiod}}}%
+        {{hash=e0a1b084c864b7d2dcda1f2eca3a604c}{%
+           family={Paddock},
+           familyi={P\bibinitperiod},
+           given={Susan\bibnamedelima M},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{8b255acdfbcc9ff075ac171f692eba1d}
+      \strng{fullhash}{8b255acdfbcc9ff075ac171f692eba1d}
+      \strng{bibnamehash}{8b255acdfbcc9ff075ac171f692eba1d}
+      \strng{authorbibnamehash}{8b255acdfbcc9ff075ac171f692eba1d}
+      \strng{authornamehash}{8b255acdfbcc9ff075ac171f692eba1d}
+      \strng{authorfullhash}{8b255acdfbcc9ff075ac171f692eba1d}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Transportation Research Part A Policy and Practice}
+      \field{title}{Driving to safety: How many miles of driving would it take to demonstrate autonomous vehicle reliability?}
+      \field{volume}{94}
+      \field{year}{2016}
+      \field{pages}{182\bibrangedash 193}
+      \range{pages}{12}
+    \endentry
+    \entry{Koopman2019}{article}{}
+      \name{author}{2}{}{%
+        {{hash=0180518be5acba53c0936c475b7ebeb0}{%
+           family={Koopman},
+           familyi={K\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod}}}%
+        {{hash=0eee793c9fda9ae1908fe61aeab2fa7e}{%
+           family={Fratrik},
+           familyi={F\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{a8bb4a4fbd14e2981d951cb561f573a6}
+      \strng{fullhash}{a8bb4a4fbd14e2981d951cb561f573a6}
+      \strng{bibnamehash}{a8bb4a4fbd14e2981d951cb561f573a6}
+      \strng{authorbibnamehash}{a8bb4a4fbd14e2981d951cb561f573a6}
+      \strng{authornamehash}{a8bb4a4fbd14e2981d951cb561f573a6}
+      \strng{authorfullhash}{a8bb4a4fbd14e2981d951cb561f573a6}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{CEUR Workshop Proceedings}
+      \field{title}{{How many operational design domains, objects, and events?}}
+      \field{volume}{2301}
+      \field{year}{2019}
+      \field{pages}{1\bibrangedash 4}
+      \range{pages}{4}
+    \endentry
+    \entry{Koopman2016}{article}{}
+      \name{author}{2}{}{%
+        {{hash=0180518be5acba53c0936c475b7ebeb0}{%
+           family={Koopman},
+           familyi={K\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod}}}%
+        {{hash=b6ea5a7032ae19a0dc619b901a2d57ac}{%
+           family={Wagner},
+           familyi={W\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{b5564d3a0915abfcdc63d8f83d3180b8}
+      \strng{fullhash}{b5564d3a0915abfcdc63d8f83d3180b8}
+      \strng{bibnamehash}{b5564d3a0915abfcdc63d8f83d3180b8}
+      \strng{authorbibnamehash}{b5564d3a0915abfcdc63d8f83d3180b8}
+      \strng{authornamehash}{b5564d3a0915abfcdc63d8f83d3180b8}
+      \strng{authorfullhash}{b5564d3a0915abfcdc63d8f83d3180b8}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{SAE International Journal of Transportation Safety}
+      \field{number}{1}
+      \field{title}{{Challenges in Autonomous Vehicle Testing and Validation}}
+      \field{volume}{4}
+      \field{year}{2016}
+      \field{pages}{15\bibrangedash 24}
+      \range{pages}{10}
+    \endentry
+    \entry{Koopman2018}{article}{}
+      \name{author}{2}{}{%
+        {{hash=0180518be5acba53c0936c475b7ebeb0}{%
+           family={Koopman},
+           familyi={K\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod}}}%
+        {{hash=b6ea5a7032ae19a0dc619b901a2d57ac}{%
+           family={Wagner},
+           familyi={W\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{b5564d3a0915abfcdc63d8f83d3180b8}
+      \strng{fullhash}{b5564d3a0915abfcdc63d8f83d3180b8}
+      \strng{bibnamehash}{b5564d3a0915abfcdc63d8f83d3180b8}
+      \strng{authorbibnamehash}{b5564d3a0915abfcdc63d8f83d3180b8}
+      \strng{authornamehash}{b5564d3a0915abfcdc63d8f83d3180b8}
+      \strng{authorfullhash}{b5564d3a0915abfcdc63d8f83d3180b8}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{SAE Technical Paper Series}
+      \field{title}{{Toward a Framework for Highly Automated Vehicle Safety Validation}}
+      \field{volume}{1}
+      \field{year}{2018}
+      \field{pages}{1\bibrangedash 13}
+      \range{pages}{13}
+    \endentry
+    \entry{korosec2019waymo}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=5bc4b72809a949f4008cd41fd06c2720}{%
+           family={Korosec},
+           familyi={K\bibinitperiod},
+           given={Kristen},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{5bc4b72809a949f4008cd41fd06c2720}
+      \strng{fullhash}{5bc4b72809a949f4008cd41fd06c2720}
+      \strng{bibnamehash}{5bc4b72809a949f4008cd41fd06c2720}
+      \strng{authorbibnamehash}{5bc4b72809a949f4008cd41fd06c2720}
+      \strng{authornamehash}{5bc4b72809a949f4008cd41fd06c2720}
+      \strng{authorfullhash}{5bc4b72809a949f4008cd41fd06c2720}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://techcrunch.com/2018/10/10/waymos-self-driving-cars-hit-10-million-miles}}
+      \field{journaltitle}{Tech Crunch}
+      \field{note}{Accessed: 2019-11-26}
+      \field{title}{Waymo's self driving cars hit 10 million miles}
+      \field{year}{2019}
+    \endentry
+    \entry{Menzel2018}{article}{}
+      \name{author}{3}{}{%
+        {{hash=d83c185f62666ee71df1e11617fa08e6}{%
+           family={Menzel},
+           familyi={M\bibinitperiod},
+           given={Till},
+           giveni={T\bibinitperiod}}}%
+        {{hash=46311fa1f412e2f9b1c24fa7fc353e69}{%
+           family={Bagschik},
+           familyi={B\bibinitperiod},
+           given={Gerrit},
+           giveni={G\bibinitperiod}}}%
+        {{hash=4494753eefa828e7273b9373b7588d9b}{%
+           family={Maurer},
+           familyi={M\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{7673b422c6071cefd1ac6c941ff8db6e}
+      \strng{fullhash}{7673b422c6071cefd1ac6c941ff8db6e}
+      \strng{bibnamehash}{7673b422c6071cefd1ac6c941ff8db6e}
+      \strng{authorbibnamehash}{7673b422c6071cefd1ac6c941ff8db6e}
+      \strng{authornamehash}{7673b422c6071cefd1ac6c941ff8db6e}
+      \strng{authorfullhash}{7673b422c6071cefd1ac6c941ff8db6e}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Scenarios for Development, Test and Validation of Automated Vehicles}}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1801.08598
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1801.08598
+      \endverb
+    \endentry
+    \entry{Mullins2018}{article}{}
+      \name{author}{4}{}{%
+        {{hash=89d35d96e83dad43506347eef172bede}{%
+           family={Mullins},
+           familyi={M\bibinitperiod},
+           given={Galen\bibnamedelima E.},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=38b3b007f87d9473da676824e4c2f5cb}{%
+           family={Stankiewicz},
+           familyi={S\bibinitperiod},
+           given={Paul\bibnamedelima G.},
+           giveni={P\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=cf3a0cc6ef03e822ad695315945e681a}{%
+           family={Hawthorne},
+           familyi={H\bibinitperiod},
+           given={R.\bibnamedelimi Chad},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=cd08d1af6648f1e3d6f6ec5abaf099dc}{%
+           family={Gupta},
+           familyi={G\bibinitperiod},
+           given={Satyandra\bibnamedelima K.},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{474e7b9b4f1c7a30c19633d5845cbec7}
+      \strng{fullhash}{474e7b9b4f1c7a30c19633d5845cbec7}
+      \strng{bibnamehash}{474e7b9b4f1c7a30c19633d5845cbec7}
+      \strng{authorbibnamehash}{474e7b9b4f1c7a30c19633d5845cbec7}
+      \strng{authornamehash}{474e7b9b4f1c7a30c19633d5845cbec7}
+      \strng{authorfullhash}{474e7b9b4f1c7a30c19633d5845cbec7}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Systems and Software}
+      \field{month}{3}
+      \field{title}{{Adaptive generation of challenging scenarios for testing and evaluation of autonomous vehicles}}
+      \field{volume}{137}
+      \field{year}{2018}
+      \field{pages}{197\bibrangedash 215}
+      \range{pages}{19}
+    \endentry
+    \entry{Rocklage2017}{misc}{}
+      \name{author}{4}{}{%
+        {{hash=589ffc1c13537b4e3e9697349ed5cc0d}{%
+           family={Rocklage},
+           familyi={R\bibinitperiod},
+           given={Elias},
+           giveni={E\bibinitperiod}}}%
+        {{hash=afc040fba41daf01f09e237984685fbb}{%
+           family={Kraft},
+           familyi={K\bibinitperiod},
+           given={Heiko},
+           giveni={H\bibinitperiod}}}%
+        {{hash=0bb479a4491ab6679dec53631b78d2ab}{%
+           family={Karatas},
+           familyi={K\bibinitperiod},
+           given={Abdullah},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f3e55c7791773de17490b6a19d82f8d1}{%
+           family={Seewig},
+           familyi={S\bibinitperiod},
+           given={Jorg\bibnamedelima J{\"{o}}rg},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{e7686310db66e5df20ffceec42544d5c}
+      \strng{fullhash}{e7686310db66e5df20ffceec42544d5c}
+      \strng{bibnamehash}{e7686310db66e5df20ffceec42544d5c}
+      \strng{authorbibnamehash}{e7686310db66e5df20ffceec42544d5c}
+      \strng{authornamehash}{e7686310db66e5df20ffceec42544d5c}
+      \strng{authorfullhash}{e7686310db66e5df20ffceec42544d5c}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2017 IEEE 20th International Conference on Intelligent Transportation Systems (ITSC)}
+      \field{month}{10}
+      \field{title}{{Automated Scenario Generation for Regression Testing of Autonomous Vehicles}}
+      \field{year}{2017}
+      \field{pages}{476\bibrangedash 483}
+      \range{pages}{8}
+    \endentry
+    \entry{Saigol2018}{article}{}
+      \name{author}{2}{}{%
+        {{hash=9573ba565e9ce4207b326dedc0a87828}{%
+           family={Saigol},
+           familyi={S\bibinitperiod},
+           given={Zeyn},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=46514ac97a637f36528bdadab31d4068}{%
+           family={Peters},
+           familyi={P\bibinitperiod},
+           given={Alan},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{c4299b88ef1ff5d2088ddc4444378252}
+      \strng{fullhash}{c4299b88ef1ff5d2088ddc4444378252}
+      \strng{bibnamehash}{c4299b88ef1ff5d2088ddc4444378252}
+      \strng{authorbibnamehash}{c4299b88ef1ff5d2088ddc4444378252}
+      \strng{authornamehash}{c4299b88ef1ff5d2088ddc4444378252}
+      \strng{authorfullhash}{c4299b88ef1ff5d2088ddc4444378252}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{25th ITS World Congress}
+      \field{number}{September}
+      \field{title}{{Verifying automated driving systems in simulation framework and challenges}}
+      \field{year}{2018}
+      \field{pages}{17\bibrangedash 21}
+      \range{pages}{5}
+    \endentry
+    \entry{StandardsBoard1990}{book}{}
+      \name{author}{1}{}{%
+        {{hash=2b3cedd6bfb0f17c1d7fd5f98abb5d6a}{%
+           family={{Standards Board}},
+           familyi={S\bibinitperiod},
+           given={IEEE},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{2b3cedd6bfb0f17c1d7fd5f98abb5d6a}
+      \strng{fullhash}{2b3cedd6bfb0f17c1d7fd5f98abb5d6a}
+      \strng{bibnamehash}{2b3cedd6bfb0f17c1d7fd5f98abb5d6a}
+      \strng{authorbibnamehash}{2b3cedd6bfb0f17c1d7fd5f98abb5d6a}
+      \strng{authornamehash}{2b3cedd6bfb0f17c1d7fd5f98abb5d6a}
+      \strng{authorfullhash}{2b3cedd6bfb0f17c1d7fd5f98abb5d6a}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Describes the IEEE Std 610.12-1990, IEEE standard glossary of software engineering terminology}
+      \field{booktitle}{IEEE Std 610.12-1990IEEE Std 610.12-1990}
+      \field{title}{{IEEE Standard Glossary of Software Engineering Terminology}}
+      \field{year}{1990}
+      \field{pages}{1\bibrangedash 84}
+      \range{pages}{84}
+    \endentry
+    \entry{codes2015highway}{misc}{}
+      \list{organization}{1}{%
+        {Department of Transport, UK}%
+      }
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.gov.uk/guidance/the-highway-code}}
+      \field{note}{Accessed: 2019-11-25}
+      \field{title}{The Highway Code}
+      \field{year}{2015}
+    \endentry
+    \entry{Tuncali2019}{article}{}
+      \name{author}{2}{}{%
+        {{hash=1cde92f808cf2ec367a449c7d31c121d}{%
+           family={Tuncali},
+           familyi={T\bibinitperiod},
+           given={Cumhur\bibnamedelima Erkan},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=f5db51986dab17eb3ddb4f8dae13aa01}{%
+           family={Fainekos},
+           familyi={F\bibinitperiod},
+           given={Georgios},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{64eded36aa78191bc009d4cc31c66995}
+      \strng{fullhash}{64eded36aa78191bc009d4cc31c66995}
+      \strng{bibnamehash}{64eded36aa78191bc009d4cc31c66995}
+      \strng{authorbibnamehash}{64eded36aa78191bc009d4cc31c66995}
+      \strng{authornamehash}{64eded36aa78191bc009d4cc31c66995}
+      \strng{authorfullhash}{64eded36aa78191bc009d4cc31c66995}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{22nd IEEE Intelligent Transportation Systems Conference (ITSC 2019)}
+      \field{title}{{Rapidly-exploring Random Trees for Testing Automated Vehicles}}
+      \field{year}{2019}
+      \field{pages}{661\bibrangedash 666}
+      \range{pages}{6}
+    \endentry
+    \entry{Tuncali2018}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=1cde92f808cf2ec367a449c7d31c121d}{%
+           family={Tuncali},
+           familyi={T\bibinitperiod},
+           given={Cumhur\bibnamedelima Erkan},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=f5db51986dab17eb3ddb4f8dae13aa01}{%
+           family={Fainekos},
+           familyi={F\bibinitperiod},
+           given={Georgios},
+           giveni={G\bibinitperiod}}}%
+        {{hash=ddfddae46c616f359c91c67bb1b8a109}{%
+           family={Ito},
+           familyi={I\bibinitperiod},
+           given={Hisahiro},
+           giveni={H\bibinitperiod}}}%
+        {{hash=479fbd2196e24307c3f31c5704aefe8f}{%
+           family={Kapinski},
+           familyi={K\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{57e7a4b3ee1af1e91105f8ccc68eec40}
+      \strng{fullhash}{57e7a4b3ee1af1e91105f8ccc68eec40}
+      \strng{bibnamehash}{57e7a4b3ee1af1e91105f8ccc68eec40}
+      \strng{authorbibnamehash}{57e7a4b3ee1af1e91105f8ccc68eec40}
+      \strng{authornamehash}{57e7a4b3ee1af1e91105f8ccc68eec40}
+      \strng{authorfullhash}{57e7a4b3ee1af1e91105f8ccc68eec40}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{IEEE Intelligent Vehicles Symposium, Proceedings}
+      \field{month}{6}
+      \field{title}{{Simulation-based Adversarial Test Generation for Autonomous Vehicles with Machine Learning Components}}
+      \field{volume}{2018-June}
+      \field{year}{2018}
+      \field{pages}{1555\bibrangedash 1562}
+      \range{pages}{8}
+    \endentry
+    \entry{RoadTraffic1988}{misc}{}
+      \field{sortinit}{U}
+      \field{sortinithash}{36a2444f5238e0dcf4bb59704df6624d}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{http://www.legislation.gov.uk/ukpga/1988/52/contents}}
+      \field{note}{Accessed: 2019-10-03}
+      \field{title}{UK Road Traffic Act 1988}
+    \endentry
+    \entry{Ulbrich2015}{article}{}
+      \name{author}{5}{}{%
+        {{hash=08808b47c7b3782fecea0db2b51c673b}{%
+           family={Ulbrich},
+           familyi={U\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod}}}%
+        {{hash=d83c185f62666ee71df1e11617fa08e6}{%
+           family={Menzel},
+           familyi={M\bibinitperiod},
+           given={Till},
+           giveni={T\bibinitperiod}}}%
+        {{hash=48d7418ce1bfaecf7202bd6eec7b27f7}{%
+           family={Reschka},
+           familyi={R\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=1800ef2e37110e6ba6d7cece5fa9595a}{%
+           family={Schuldt},
+           familyi={S\bibinitperiod},
+           given={Fabian},
+           giveni={F\bibinitperiod}}}%
+        {{hash=4494753eefa828e7273b9373b7588d9b}{%
+           family={Maurer},
+           familyi={M\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{9ae7c584aa8bd29ad0e37a6c40aa3578}
+      \strng{fullhash}{9ae7c584aa8bd29ad0e37a6c40aa3578}
+      \strng{bibnamehash}{9ae7c584aa8bd29ad0e37a6c40aa3578}
+      \strng{authorbibnamehash}{9ae7c584aa8bd29ad0e37a6c40aa3578}
+      \strng{authornamehash}{9ae7c584aa8bd29ad0e37a6c40aa3578}
+      \strng{authorfullhash}{9ae7c584aa8bd29ad0e37a6c40aa3578}
+      \field{sortinit}{U}
+      \field{sortinithash}{36a2444f5238e0dcf4bb59704df6624d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Conference on Intelligent Transportation Systems, Proceedings, ITSC}
+      \field{title}{{Defining and Substantiating the Terms Scene, Situation, and Scenario for Automated Driving}}
+      \field{volume}{2015-Oct}
+      \field{year}{2015}
+      \field{pages}{982\bibrangedash 988}
+      \range{pages}{7}
+    \endentry
+    \entry{utting2012taxonomy}{article}{}
+      \name{author}{3}{}{%
+        {{hash=fd2b417e52982345bc826389bae4a156}{%
+           family={Utting},
+           familyi={U\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ce303c40115b5be71de89930153cdda3}{%
+           family={Pretschner},
+           familyi={P\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+        {{hash=925c8ebfdef9301e26dd7a09bd6f6cf5}{%
+           family={Legeard},
+           familyi={L\bibinitperiod},
+           given={Bruno},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{4c701e7ed6888b181141d26442e642fa}
+      \strng{fullhash}{4c701e7ed6888b181141d26442e642fa}
+      \strng{bibnamehash}{4c701e7ed6888b181141d26442e642fa}
+      \strng{authorbibnamehash}{4c701e7ed6888b181141d26442e642fa}
+      \strng{authornamehash}{4c701e7ed6888b181141d26442e642fa}
+      \strng{authorfullhash}{4c701e7ed6888b181141d26442e642fa}
+      \field{sortinit}{U}
+      \field{sortinithash}{36a2444f5238e0dcf4bb59704df6624d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Software Testing, Verification and Reliability}
+      \field{number}{5}
+      \field{title}{A taxonomy of model-based testing approaches}
+      \field{volume}{22}
+      \field{year}{2012}
+      \field{pages}{297\bibrangedash 312}
+      \range{pages}{16}
+    \endentry
+    \entry{ViennaConv}{misc}{}
+      \field{sortinit}{V}
+      \field{sortinithash}{75dd7385c90b2252c3ae853a80ca853b}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://treaties.un.org}}
+      \field{note}{Accessed: 2019-10-03}
+      \field{title}{Vienna Convention on Road Traffic}
+    \endentry
+    \entry{Zoumpoulaki2010}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=f5db90f2cfe70a3850211609b8279ed3}{%
+           family={Zoumpoulaki},
+           familyi={Z\bibinitperiod},
+           given={Alexia},
+           giveni={A\bibinitperiod}}}%
+        {{hash=eb05c210bee7e63b07ed5647a9bd5758}{%
+           family={Avradinis},
+           familyi={A\bibinitperiod},
+           given={Nikos},
+           giveni={N\bibinitperiod}}}%
+        {{hash=fca9057bcedc4a2d300d3da72e86d55c}{%
+           family={Vosinakis},
+           familyi={V\bibinitperiod},
+           given={Spyros},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{adb366e684c27f0fddf653cf192603c6}
+      \strng{fullhash}{adb366e684c27f0fddf653cf192603c6}
+      \strng{bibnamehash}{adb366e684c27f0fddf653cf192603c6}
+      \strng{authorbibnamehash}{adb366e684c27f0fddf653cf192603c6}
+      \strng{authornamehash}{adb366e684c27f0fddf653cf192603c6}
+      \strng{authorfullhash}{adb366e684c27f0fddf653cf192603c6}
+      \field{sortinit}{Z}
+      \field{sortinithash}{156173bd08b075d7295bc3e0f4735a04}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Hellenic Conference on Artificial Intelligence. Springer, Berlin, Heidelberg, 2010.}
+      \field{title}{{A Multi-Agent Simulation Framework for Emergency Evacuations Incorporating Personality and Emotions}}
+      \field{year}{2010}
+      \field{pages}{423\bibrangedash 428}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1007/978-3-642-12842-4_54
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
