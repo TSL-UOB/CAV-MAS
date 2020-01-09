@@ -169,27 +169,6 @@ class Environment(object):
 			self.inv_euclid2 = 1/np.square(self.euclid)
 			self.inv_euclid3 = 1/np.power(self.euclid,3)
 
-		# set memory of last known position of the av
-		# todo
-
-		# find time to kerb
-		# todo
-
-		# find av time to samekerb level
-		# todo
-
-		# print("~~~~ env ~~~~")
-		# print("xp yp ",xp, yp)
-		# print("xa ya ",xa, ya)
-		# print("on road ",self.on_road)
-		# print("dif y ", self.diff_y)
-		# print("diff x ", self.diff_x)
-		# print("euclid ", self.euclid)
-		# print("inv_euclid ", self.inv_euclid)
-		# print("inv_euclid2 ", self.inv_euclid2)
-		# print("inv_euclid3 ", self.inv_euclid3)
-		# print("~~~~~~~~~~~~~~")
-
 		#return (self.on_road, self.diff_x, self.diff_y, self.euclid, self.inv_euclid, self.inv_euclid2, self.inv_euclid3)
 		return (self.on_road, self.diff_x, self.diff_y, self.euclid,0,0,0)
 
@@ -261,26 +240,6 @@ class Environment(object):
 		return features
 
 	def get_possible_actions(self):
-		
-		'''
-		pos = self.position
-		possible_actions = []
-		
-		if pos[0]+1<self.nH: and (pos[0]+1,pos[1]) not in self.blocked_positions:
-			possible_actions.append(0)
-				
-		if pos[0]-1>=0 and (pos[0]-1,pos[1]) not in self.blocked_positions:
-			possible_actions.append(1)
-		
-		if pos[1]+1<self.nW and (pos[0],pos[1]+1) not in self.blocked_positions:
-			possible_actions.append(2)
-				
-		if pos[1]-1>=0 and (pos[0],pos[1]-1) not in self.blocked_positions:
-			possible_actions.append(3)
-		
-		return possible_actions		
-		'''
-		
 		return range(self.action_space) 
 	
 	def step(self, action):
@@ -481,7 +440,7 @@ class Environment(object):
 		#======================================
 		cv2.imshow('frame', frame)
 		cv2.moveWindow('frame', 0, 0)
-		key = cv2.waitKey(10)
+		key = cv2.waitKey(1)
 		if key == 27: sys.exit()
 
 
@@ -1371,8 +1330,7 @@ def moveAV(gridW,gridH,AV_y):
 
 def MASrender(simTime, nA, agentState, score):
 		
-	frame = env.frame.copy()
-		
+	frame = env.frame.copy()		
 	# draw horizontal lines		
 	for i in range(env.gridH+1):
 		cv2.line(frame, (0, i*env.scale), (env.gridW * env.scale, i*env.scale), (255, 255, 255), 1)
@@ -1457,8 +1415,8 @@ gridH, gridW = 12, 66			# Each grid unit is 1.5m square
 pavement_rows = [0,1,10,11] 	#grid row of each pavement
 vAV = 6 						# 6u/s ~9.1m/s ~20mph
 vPed = 1 						# 1u/s ~1.4m/s ~3mph
-nA = 10							# Number of agents
-delay = 0.35 					# delay between each frame, slows sim down
+nA = 3							# Number of agents
+delay = 0.2 					# delay between each frame, slows sim down
 vt = 100						# points for a valid test
 AV_y = 0						# AV start position along road
 default_reward	= -1 			# Living cost
@@ -1641,7 +1599,7 @@ for nA in nAList:
 		# next_state_possible_actions = env.get_possible_actions()
 		# agent.feat_q_update(state, AV_state, action, reward, next_state, next_state_possible_actions, done, features, q_val_dash)
 		# state = next_state
-		time.sleep(delay)
+		# time.sleep(delay) - this one causes jittering motion!
 
 		
 
