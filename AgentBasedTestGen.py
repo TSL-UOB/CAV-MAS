@@ -85,6 +85,12 @@ class Environment(object):
 			(w, h), _ = cv2.getTextSize(text, font, 1, 2)
 			cv2.putText(self.frame, text, (int((x+0.5)*self.scale-w/2), int((y+0.5)*self.scale+h/2)), font, 1, color, 2, cv2.LINE_AA)	
 			#cv2.putText(self.frame, text, (int((x+0.5)*self.scale)-w/2, int((y+0.5)*self.scale+h/2)), font, 1, color, 2, cv2.LINE_AA)
+
+		# colour the pavements
+		pavement_rows = [0,1,10,11]
+		for y in pavement_rows:
+			for x in range(self.gridW+1):
+				cv2.rectangle(self.frame, (x*self.scale, y*self.scale), ((x+1)*self.scale, (y+1)*self.scale), (100, 100, 100), -1)
 			
             
 
@@ -137,6 +143,13 @@ class Environment(object):
 			(w, h), _ = cv2.getTextSize(text, font, 1, 2)
 			cv2.rectangle(self.frame, (x*self.scale, y*self.scale), ((x+1)*self.scale, (y+1)*self.scale), (100, 100, 100), -1) #from blocked positions
 			# cv2.putText(self.frame, text, (int((x+0.5)*self.scale-w/2), int((y+0.5)*self.scale+h/2)), font, 0.5, color, 1, cv2.LINE_AA)
+
+		# colour the pavements
+		pavement_rows = [0,1,10,11]
+		for y in pavement_rows:
+			for x in range(self.gridW+1):
+				cv2.rectangle(self.frame, (x*self.scale, y*self.scale), ((x+1)*self.scale, (y+1)*self.scale), (100, 100, 100), -1)
+			
 
 	def percepts(self, AV_state):
 		
@@ -335,52 +348,7 @@ class Environment(object):
 
 				cv2.fillPoly(frame, [pts], color)
 			
-			# # draw crossed lines
-			
-			# x1 = int(self.scale*(position[1]))			
-			# y1 = int(self.scale*(position[0]))
-			
-			# x2 = int(self.scale*(position[1] + 1.0))			
-			# y2 = int(self.scale*(position[0] + 1.0))
-
-			# x3 = int(self.scale*(position[1]+ 1.0 ))			
-			# y3 = int(self.scale*(position[0]))
-			
-			# x4 = int(self.scale*(position[1]))			
-			# y4 = int(self.scale*(position[0] + 1.0))
-			
-			# cv2.line(frame, (x1, y1), (x2, y2), (255, 255, 255), 2)
-			# cv2.line(frame, (x3, y3), (x4, y4), (255, 255, 255), 2)
-			
-			# # draw arrow indicating best action
 						
-			# best_action = 0
-			# best_qvalue = qvalues[0]
-			# for action, qvalue in enumerate(qvalues):
-			# 	if qvalue > best_qvalue:
-			# 		best_qvalue = qvalue
-			# 		best_action = action
-			
-			# if best_action == 0:
-			# 	dx1, dy1, dx2, dy2 = 0.0, -0.25, 0.0, 0.25	
-							
-			# elif best_action == 1:
-			# 	dx1, dy1, dx2, dy2 = 0.0, 0.25, 0.0, -0.25
-								
-			# elif best_action == 2:
-			# 	dx1, dy1, dx2, dy2 = -0.25, 0.0, 0.25, 0.0
-								
-			# elif best_action == 3:
-			# 	dx1, dy1, dx2, dy2 = 0.25, 0.0, -0.25, 0.0				
-									
-			# x1 = int(self.scale*(position[1] + 0.5 + dx1))			
-			# y1 = int(self.scale*(position[0] + 0.5 + dy1))	
-					
-			# x2 = int(self.scale*(position[1] + 0.5 + dx2))			
-			# y2 = int(self.scale*(position[0] + 0.5 + dy2))	
-							
-			# cv2.arrowedLine(frame, (x1, y1), (x2, y2), (255, 100, 0), 8, line_type=8, tipLength=0.5)		
-			
 		# draw horizontal lines		
 		for i in range(self.gridH+1):
 			cv2.line(frame, (0, i*self.scale), (self.gridW * self.scale, i*self.scale), (255, 255, 255), 1)
@@ -751,7 +719,7 @@ def randomBehaviour(simTime, nA, agentState, pLog, rLog, nExp, AV_y, diag=True):
 		#if first step then set agents down pavement
 		if int(simTime)==1:
 			# if old_ay>int(round(gridH/2)): #walking direction
-			if ran>1 or ran<7:
+			if ran>1 and ran<7:
 				walk_direction = -1
 				#if diag:print("Agent is East side")
 			elif ran>6:
@@ -863,6 +831,7 @@ def Proximity(simTime, nA, agentState, pLog, rLog, nExp, AV_y, trigger_radius=15
 		log_string = ""
 		
 		ran = random.randint(1,10) #roll 10-sided dice
+
 		rLog.write("%7i, %4i \n" % (simTime, ran))  #log random number
 		old_ax = agentState[simTime-1,agentID,0]
 		old_ay = agentState[simTime-1,agentID,1]
@@ -1357,7 +1326,7 @@ def MASrender(simTime, nA, agentState, score):
 	#======================================
 	
 	#print score
-	text = 'score = ' + str(int(score))
+	text = 'Total = ' + str(int(score))
 	color = (0,0,255)
 	font = cv2.FONT_HERSHEY_SIMPLEX
 	y = gridH - 2
@@ -1368,6 +1337,12 @@ def MASrender(simTime, nA, agentState, score):
 	cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 0, 0), -1)
 	cv2.putText(frame, text, (int((x+0.5)*env.scale-w/2), int((y+0.5)*env.scale+h/2)), font, 1, color, 2, cv2.LINE_AA)
 
+	# colour the pavements
+	pavement_rows = [0,1,10,11]
+	for y in pavement_rows:
+		for x in range(env.gridW+1):
+			cv2.rectangle(env.frame, (x*env.scale, y*env.scale), ((x+1)*env.scale, (y+1)*env.scale), (100, 100, 100), -1)	
+	
 
 	cv2.imshow('frame', frame)
 	cv2.moveWindow('frame', 0, 0)
@@ -1416,7 +1391,7 @@ pavement_rows = [0,1,10,11] 	#grid row of each pavement
 vAV = 6 						# 6u/s ~9.1m/s ~20mph
 vPed = 1 						# 1u/s ~1.4m/s ~3mph
 nA = 3							# Number of agents
-delay = 0.2 					# delay between each frame, slows sim down
+delay = 0.35 					# delay between each frame, slows sim down
 vt = 100						# points for a valid test
 AV_y = 0						# AV start position along road
 default_reward	= -1 			# Living cost
@@ -1433,10 +1408,13 @@ loopAgentList = False 			# use nAlist to loop through nA
 #	Election = elects a single agent within range to cross road
 
 agentChoices = ['RandAction', 'RandBehaviour','Proximity','Election']
-agentBehaviour = agentChoices[3] 	# TODO replace with CL arg
+agentBehaviour = agentChoices[1] 	# TODO replace with CL arg
 TR = 15 							# Proximity/Election Trigger Radius
 ECA = True							# If election is held, choose closest to AV, else furthest
 CP = False 							# Elect agents on pavement closest to the AV
+
+camera_stop = 2						# Pause sim on 1st frame for camera work
+
 
 # ======================================================================
 # --- Non-User Experiment Params ---------------------------------------
@@ -1549,7 +1527,6 @@ for nA in nAList:
 
 
 
-
 	# Flag to indicate if a valid test has been generated
 	done = False
 
@@ -1601,6 +1578,9 @@ for nA in nAList:
 		# state = next_state
 		# time.sleep(delay) - this one causes jittering motion!
 
+		if camera_stop>0:
+			raw_input("Press Enter to continue...")
+			camera_stop=camera_stop-1
 		
 
 	# move AV
