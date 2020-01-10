@@ -26,10 +26,10 @@ Please see the paper for details of the test generation strategies. The agent be
 3 for election
 
 Example of the Random test generation with 10 agents. In this mode at each sim tick (1.0s) the agents will take a random action to move or stand still.
-![](random.gif)
+![](new_random.gif)
 
 Example of the Proximity agency-directed test generation with 10 agents. With this behaviour the agents will walk along the pavement until the AV is within a trigger radius when they will cross the road.
-![](proximity.gif)
+![](new_proximity.gif)
 
 If you wish to loop through a list of different agent numbers, as we did in our tests then set loopAgentList = True and the program will record data for the agent numbers in nAList which is set to [1,2,3,4,5,6,7,8,9,10,15,20]
 
