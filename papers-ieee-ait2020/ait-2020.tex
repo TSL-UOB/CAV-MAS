@@ -321,10 +321,10 @@ Test agents have also been proposed by Enoiu et al.~\cite{Enoiu2019} for regress
 \section{Case Study} \label{s:case-study}
  
 This section describes a case study to explore the proposed agent-based test generation method.%
-\footnote{The code used is available at \url{github.com/TSL-UOB/CAV-MAS}.} %
+\footnote{The code used is available at \url{github.com/TSL-UOB/CAV-MAS}.} %	
 %
-Our aim is to generate tests that exercise an assertion that requires the AV to avoid collisions with other road users, provided that such road user, a pedestrian in this case, intrudes in the path of the AV in such a way that a collision can be avoided by the AV either by braking or manoeuvring. In Fig.~\ref{gridRoad} this is illustrated by the \textit{precondition zone}, i.e.\ the area of interest in which the assertion is activated.
-\todo[inline]{This is similar to standardised testing, e.g. Euro-NCAP CPNA-25~\cite{EURO-NCAP}}
+Our aim is to generate tests that exercise an assertion that requires the AV to avoid collisions with other road users, provided that such road user, a pedestrian in this case, intrudes in the path of the AV in such a way that a collision can be avoided by the AV either by braking or manoeuvring. This is similar to standardised testing, e.g. Euro-NCAP CPNA-25~\cite{EURO-NCAP}. In Fig.~\ref{gridRoad} this is illustrated by the \textit{precondition zone}, i.e.\ the area of interest in which the assertion is activated.
+
 
 In the following, we shall term tests that activate the assertion \textit{successful tests}; these count towards assertion coverage. 
 %
@@ -381,8 +381,11 @@ At the start of a test, pedestrians are randomly located onto the pavement area 
 
 We distinguish two main classes of behaviours, random and agency-directed, see also Table~\ref{t:ResultsTable}. For the random class, \textit{random} behaviour means that the test agent can perform any random action at each simulation tick, with the available actions being: do nothing (stand still), move forward, backward, left or right. In \textit{constrained random} mode, the pedestrian is initially walking along the pavement and has only one action available; to randomly choose when to cross the road. The constrained random behaviour is included so that a comparison between crossing the road at a targeted or at a random time can be made. 
 
-The second class of behaviours is agency-directed, taking into account the agent's perceptions for strategic planning. Agents are initially walking along the pavement as in constrained random mode. The \textit{proximity} behaviour instructs the agent to cross the road when the AV is within a certain radius. The \textit{election} behaviour ranks agents within a proximity radius to the AV and elects the agent with the shortest distance to the AV. The major difference between the agent-directed behaviours is that the \textit{election} behaviour will only elect a single agent to cross the road whereas the \textit{proximity} behaviour will result any number of agents crossing the road as long as they are within range.
-\todo[inline]{Specify what the trigger radius is: 15 cells using city-block measure, note that this is a model parameter}
+The second class of behaviours is agency-directed, taking into account the agent's perceptions for strategic planning. Agents are initially walking along the pavement as in constrained random mode. The \textit{proximity} behaviour instructs the agent to cross the road when the AV is within a certain radius. %
+%
+The trigger radius is 15 cells using city-block measure and is the same value for both \textit{proximity}  and \textit{election} behaviours.
+%
+The \textit{election} behaviour ranks agents within a proximity radius to the AV and elects the agent with the shortest distance to the AV. The major difference between the agent-directed behaviours is that the \textit{election} behaviour will only elect a single agent to cross the road whereas the \textit{proximity} behaviour will result any number of agents crossing the road as long as they are within range.
 % Thus, the \textit{proximity} behaviour results in agents that will step into the road whenever a vehicle is nearby. Moreover, all nearby pedestrians are drawn to a passing vehicle.
 %
 While the \textit{proximity} behaviour may lead to the desired coverage it is less realistic than the \textit{election} behaviour. 
@@ -401,7 +404,11 @@ In comparison, when using more intelligent, agency-directed behaviour, we expect
 %------------------- Scoring -----------------------------
 \subsection{Scoring}
 
-In an attempt to encourage more realistic agent behaviour, a basic scoring system is used to direct agent behaviour by penalising or rewarding certain actions. In particular, a living cost of one is charged for each elapsed time step to promote shorter tests, and a penalty of five is issued for each time step that  an agent spends in the road. A reward of 100 is given if the agent enters the AV's \textit{precondition zone} More sophisticated scoring systems will be explored in our future work. 
+In an attempt to encourage more realistic agent behaviour, a basic scoring system is used to direct agent behaviour by penalising or rewarding certain actions. In particular, a living cost of one is charged for each elapsed time step to promote shorter tests, and a penalty of five is issued for each time step that an agent spends in the road. %
+%
+This is based on the general observation that most pedestrians do not predominately walk in the road but rather cross over it and hence higher scores are associated with less time spent in the road.
+%
+A reward of 100 is given if the agent enters the AV's \textit{precondition zone} More sophisticated scoring systems will be explored in our future work. 
 
 % KIE: unclear :(
 % The scoring should reflect the benefits of the method against the desire to generate good tests~\cite{fewster1999software}.
@@ -450,7 +457,7 @@ For a single agent, scores are similar for all agent behaviours, as only success
 
 % \todo[inline]{why no variance for nA=1 in random? this is counter intuitive, it suggests random agents that succeed score only the highest value score!} 
 
-As $nA$ increases, the random agents are more often found in the road and hence their average score decreases. In contrast, the directed agents are only found crossing the road when they deem fit, and they remain on the pavement at all other times, keeping the score much higher and resulting in more realistic test cases.
+As $nA$ increases, the random agents are more often found in the road and hence their average score decreases. In contrast, the directed agents are only found crossing the road when they deem fit, and they remain on the pavement at all other times, keeping the score much higher and resulting in more realistic test cases. The basis for this rationale is from the general observation that people walk on pavements rather than roads and hence walking in the road is penalised.
 %
 % \todo[inline]{include the theoretical max score line} Note that the directed agent class are close to the theoretical maximum score, Fig.~\ref{AgentScore}(dashed line). 
 %
