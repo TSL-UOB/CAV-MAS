@@ -19,7 +19,7 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
-    \entry{Araiza-Illan2016}{article}{}
+    \entry{Araiza-Illan2016}{inproceedings}{}
       \name{author}{3}{}{%
         {{hash=8ef2dde927f863e1488b85e18eebbc01}{%
            family={Araiza-Illan},
@@ -37,6 +37,9 @@
            given={Kerstin},
            giveni={K\bibinitperiod}}}%
       }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
       \strng{namehash}{cd9135e6ed57a9f6ccc7a69c2613c09e}
       \strng{fullhash}{cd9135e6ed57a9f6ccc7a69c2613c09e}
       \strng{bibnamehash}{cd9135e6ed57a9f6ccc7a69c2613c09e}
@@ -47,12 +50,16 @@
       \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{eprinttype}{arXiv}
-      \field{journaltitle}{ACM International Conference Proceeding Series}
-      \field{title}{{Intelligent agent-based stimulation for testing robotic software in human-robot interactions}}
+      \field{booktitle}{Proceedings of the 3rd Workshop on Model-Driven Robot Software Engineering}
+      \field{isbn}{9781450342599}
+      \field{series}{MORSE'16}
+      \field{title}{{Intelligent Agent-Based Stimulation for Testing Robotic Software in Human-Robot Interactions}}
       \field{year}{2016}
       \field{pages}{9\bibrangedash 16}
       \range{pages}{8}
+      \verb{doi}
+      \verb 10.1145/3022099.3022101
+      \endverb
     \endentry
     \entry{HVC2015}{inproceedings}{}
       \name{author}{4}{}{%
@@ -78,7 +85,7 @@
            giveni={K\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
-        {Springer International Publishing}%
+        {Springer}%
       }
       \strng{namehash}{30dff2404420ff4ce711b5eb4b8019fd}
       \strng{fullhash}{30dff2404420ff4ce711b5eb4b8019fd}
@@ -90,7 +97,9 @@
       \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Coverage-Driven Verification An approach to verify code for robots that directly interact with humans}
+      \field{booktitle}{Hardware and Software: Verification and Testing (HVC'15)}
+      \field{isbn}{978-3-319-26287-1}
+      \field{title}{Coverage-Driven Verification --- An Approach to Verify Code for Robots that Directly Interact with Humans}
       \field{year}{2015}
       \field{pages}{69\bibrangedash 84}
       \range{pages}{16}
@@ -152,7 +161,7 @@
       \field{sortinithash}{276475738cc058478c1677046f857703}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{IEEE Intelligent Vehicles Symposium, Proceedings}
+      \field{booktitle}{IEEE Intelligent Vehicles Symposium}
       \field{title}{{Ontology based Scene Creation for the Development of Automated Vehicles}}
       \field{volume}{2018-June}
       \field{year}{2018}
@@ -242,7 +251,7 @@
            giveni={J\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
-        {Springer Science Business Media}%
+        {Springer}%
       }
       \strng{namehash}{f69f4007d3ae9e68699445e95362d552}
       \strng{fullhash}{f69f4007d3ae9e68699445e95362d552}
@@ -254,7 +263,7 @@
       \field{sortinithash}{276475738cc058478c1677046f857703}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Writing testbenches functional verification of HDL models}
+      \field{title}{Writing testbenches --- Functional verification of HDL models}
       \field{year}{2012}
     \endentry
     \entry{Bordini2006}{article}{}
@@ -451,29 +460,6 @@
       \field{title}{Software test automation}
       \field{year}{1999}
     \endentry
-    \entry{ITFroadSafety2018}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=b532114b4a4eacb50e2a49f49846c7a5}{%
-           family={Forum},
-           familyi={F\bibinitperiod},
-           given={International\bibnamedelima Transport},
-           giveni={I\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
-      }
-      \strng{namehash}{b532114b4a4eacb50e2a49f49846c7a5}
-      \strng{fullhash}{b532114b4a4eacb50e2a49f49846c7a5}
-      \strng{bibnamehash}{b532114b4a4eacb50e2a49f49846c7a5}
-      \strng{authorbibnamehash}{b532114b4a4eacb50e2a49f49846c7a5}
-      \strng{authornamehash}{b532114b4a4eacb50e2a49f49846c7a5}
-      \strng{authorfullhash}{b532114b4a4eacb50e2a49f49846c7a5}
-      \field{sortinit}{F}
-      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://www.itf-oecd.org/sites/default/files/docs/irtad-road-safety-annual-report-2018_2.pdf}}
-      \field{note}{Accessed: 2019-11-26}
-      \field{title}{Road Safety Annual Report}
-      \field{year}{2018}
-    \endentry
     \entry{georgeff1988communication}{incollection}{}
       \name{author}{1}{}{%
         {{hash=a66e423abb1fad9de780171f73364632}{%
@@ -570,6 +556,17 @@
       \field{volume}{1}
       \field{year}{2018}
     \endentry
+    \entry{StandardsBoard1990}{book}{}
+      \field{sortinit}{I}
+      \field{sortinithash}{320bc8fe8101b9376f9f21cd507de0e8}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Describes the IEEE Std 610.12-1990, IEEE standard glossary of software engineering terminology}
+      \field{booktitle}{IEEE Std 610.12-1990IEEE Std 610.12-1990}
+      \field{title}{{IEEE Standard Glossary of Software Engineering Terminology}}
+      \field{year}{1990}
+      \field{pages}{1\bibrangedash 84}
+      \range{pages}{84}
+    \endentry
     \entry{Ioannides:2012}{article}{}
       \name{author}{2}{}{%
         {{hash=c1a5f103b8bc486cf95be0eff9133180}{%
@@ -631,7 +628,7 @@
       \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Transportation Research Part A Policy and Practice}
+      \field{journaltitle}{Transp.\ Research Part A Policy and Practice}
       \field{title}{Driving to safety: How many miles of driving would it take to demonstrate autonomous vehicle reliability?}
       \field{volume}{94}
       \field{year}{2016}
@@ -751,44 +748,43 @@
       \field{journaltitle}{Tech Crunch}
       \field{note}{Accessed: 2019-11-26}
       \field{title}{Waymo's self driving cars hit 10 million miles}
-      \field{year}{2019}
     \endentry
-    \entry{Menzel2018}{article}{}
+    \entry{Menzel2018}{inproceedings}{}
       \name{author}{3}{}{%
-        {{hash=d83c185f62666ee71df1e11617fa08e6}{%
-           family={Menzel},
+        {{hash=1e7e14882880df2bd0c2250b7004c68d}{%
+           family={{Menzel}},
            familyi={M\bibinitperiod},
-           given={Till},
+           given={T.},
            giveni={T\bibinitperiod}}}%
-        {{hash=46311fa1f412e2f9b1c24fa7fc353e69}{%
-           family={Bagschik},
+        {{hash=90181c7ec633746eb244471a19331404}{%
+           family={{Bagschik}},
            familyi={B\bibinitperiod},
-           given={Gerrit},
+           given={G.},
            giveni={G\bibinitperiod}}}%
-        {{hash=4494753eefa828e7273b9373b7588d9b}{%
-           family={Maurer},
+        {{hash=4bc628c9977a22862dd37c474436613c}{%
+           family={{Maurer}},
            familyi={M\bibinitperiod},
-           given={Markus},
+           given={M.},
            giveni={M\bibinitperiod}}}%
       }
-      \strng{namehash}{7673b422c6071cefd1ac6c941ff8db6e}
-      \strng{fullhash}{7673b422c6071cefd1ac6c941ff8db6e}
-      \strng{bibnamehash}{7673b422c6071cefd1ac6c941ff8db6e}
-      \strng{authorbibnamehash}{7673b422c6071cefd1ac6c941ff8db6e}
-      \strng{authornamehash}{7673b422c6071cefd1ac6c941ff8db6e}
-      \strng{authorfullhash}{7673b422c6071cefd1ac6c941ff8db6e}
+      \strng{namehash}{eb584d0587fb14a5984fb60518fe1732}
+      \strng{fullhash}{eb584d0587fb14a5984fb60518fe1732}
+      \strng{bibnamehash}{eb584d0587fb14a5984fb60518fe1732}
+      \strng{authorbibnamehash}{eb584d0587fb14a5984fb60518fe1732}
+      \strng{authornamehash}{eb584d0587fb14a5984fb60518fe1732}
+      \strng{authorfullhash}{eb584d0587fb14a5984fb60518fe1732}
       \field{sortinit}{M}
       \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{{Scenarios for Development, Test and Validation of Automated Vehicles}}
+      \field{booktitle}{2018 IEEE Intelligent Vehicles Symposium (IV)}
+      \field{issn}{1931-0587}
+      \field{month}{6}
+      \field{title}{Scenarios for Development, Test and Validation of Automated Vehicles}
       \field{year}{2018}
-      \verb{urlraw}
-      \verb http://arxiv.org/abs/1801.08598
-      \endverb
-      \verb{url}
-      \verb http://arxiv.org/abs/1801.08598
-      \endverb
+      \field{pages}{1821\bibrangedash 1827}
+      \range{pages}{7}
+      \keyw{automotive electronics;driver information systems;ISO standards;road vehicles;automated vehicles;ISO 26262 standard;safety-guided development;vehicle guidance systems;development process;process step;scenario based approaches;automated driving functions;driver assistance systems;work products;safety-critical electric-electronic vehicle systems;multiple V-models;human understandable notation;state variables;contradictory requirements;prior publications;abstraction level;ISO Standards;Hardware;Hazards;Product development;Software}
     \endentry
     \entry{Mullins2018}{article}{}
       \name{author}{4}{}{%
@@ -834,48 +830,57 @@
       \field{pages}{197\bibrangedash 215}
       \range{pages}{19}
     \endentry
-    \entry{Rocklage2017}{misc}{}
+    \entry{ITFroadSafety2018}{misc}{}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.itf-oecd.org/sites/default/files/docs/irtad-road-safety-annual-report-2018_2.pdf}}
+      \field{note}{Accessed: 2019-11-26}
+      \field{title}{Road Safety Annual Report}
+    \endentry
+    \entry{Rocklage2017}{inproceedings}{}
       \name{author}{4}{}{%
-        {{hash=589ffc1c13537b4e3e9697349ed5cc0d}{%
-           family={Rocklage},
+        {{hash=a7984a229710017fd3a73161fb08a5ee}{%
+           family={{Rocklage}},
            familyi={R\bibinitperiod},
-           given={Elias},
+           given={E.},
            giveni={E\bibinitperiod}}}%
-        {{hash=afc040fba41daf01f09e237984685fbb}{%
-           family={Kraft},
+        {{hash=773a66dcc6368198037bb2528c000577}{%
+           family={{Kraft}},
            familyi={K\bibinitperiod},
-           given={Heiko},
+           given={H.},
            giveni={H\bibinitperiod}}}%
-        {{hash=0bb479a4491ab6679dec53631b78d2ab}{%
-           family={Karatas},
+        {{hash=e6189ce7955913f4f8065fb11eb177e7}{%
+           family={{Karatas}},
            familyi={K\bibinitperiod},
-           given={Abdullah},
+           given={A.},
            giveni={A\bibinitperiod}}}%
-        {{hash=f3e55c7791773de17490b6a19d82f8d1}{%
-           family={Seewig},
+        {{hash=3ec364fffe6198d5b8512df8aa4d6b3d}{%
+           family={{Seewig}},
            familyi={S\bibinitperiod},
-           given={Jorg\bibnamedelima J{\"{o}}rg},
-           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+           given={J.},
+           giveni={J\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{e7686310db66e5df20ffceec42544d5c}
-      \strng{fullhash}{e7686310db66e5df20ffceec42544d5c}
-      \strng{bibnamehash}{e7686310db66e5df20ffceec42544d5c}
-      \strng{authorbibnamehash}{e7686310db66e5df20ffceec42544d5c}
-      \strng{authornamehash}{e7686310db66e5df20ffceec42544d5c}
-      \strng{authorfullhash}{e7686310db66e5df20ffceec42544d5c}
+      \strng{namehash}{e95a83adf51d8608ff2995f86a478047}
+      \strng{fullhash}{e95a83adf51d8608ff2995f86a478047}
+      \strng{bibnamehash}{e95a83adf51d8608ff2995f86a478047}
+      \strng{authorbibnamehash}{e95a83adf51d8608ff2995f86a478047}
+      \strng{authornamehash}{e95a83adf51d8608ff2995f86a478047}
+      \strng{authorfullhash}{e95a83adf51d8608ff2995f86a478047}
       \field{sortinit}{R}
       \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{2017 IEEE 20th International Conference on Intelligent Transportation Systems (ITSC)}
+      \field{booktitle}{IEEE 20th International Conference on Intelligent Transportation Systems (ITSC)}
+      \field{issn}{2153-0017}
       \field{month}{10}
-      \field{title}{{Automated Scenario Generation for Regression Testing of Autonomous Vehicles}}
+      \field{title}{Automated scenario generation for regression testing of autonomous vehicles}
       \field{year}{2017}
       \field{pages}{476\bibrangedash 483}
       \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/ITSC.2017.8317919
+      \endverb
     \endentry
     \entry{Saigol2018}{article}{}
       \name{author}{2}{}{%
@@ -906,31 +911,6 @@
       \field{year}{2018}
       \field{pages}{17\bibrangedash 21}
       \range{pages}{5}
-    \endentry
-    \entry{StandardsBoard1990}{book}{}
-      \name{author}{1}{}{%
-        {{hash=2b3cedd6bfb0f17c1d7fd5f98abb5d6a}{%
-           family={{Standards Board}},
-           familyi={S\bibinitperiod},
-           given={IEEE},
-           giveni={I\bibinitperiod}}}%
-      }
-      \strng{namehash}{2b3cedd6bfb0f17c1d7fd5f98abb5d6a}
-      \strng{fullhash}{2b3cedd6bfb0f17c1d7fd5f98abb5d6a}
-      \strng{bibnamehash}{2b3cedd6bfb0f17c1d7fd5f98abb5d6a}
-      \strng{authorbibnamehash}{2b3cedd6bfb0f17c1d7fd5f98abb5d6a}
-      \strng{authornamehash}{2b3cedd6bfb0f17c1d7fd5f98abb5d6a}
-      \strng{authorfullhash}{2b3cedd6bfb0f17c1d7fd5f98abb5d6a}
-      \field{sortinit}{S}
-      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Describes the IEEE Std 610.12-1990, IEEE standard glossary of software engineering terminology}
-      \field{booktitle}{IEEE Std 610.12-1990IEEE Std 610.12-1990}
-      \field{title}{{IEEE Standard Glossary of Software Engineering Terminology}}
-      \field{year}{1990}
-      \field{pages}{1\bibrangedash 84}
-      \range{pages}{84}
     \endentry
     \entry{codes2015highway}{misc}{}
       \list{organization}{1}{%
@@ -1012,7 +992,7 @@
       \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{IEEE Intelligent Vehicles Symposium, Proceedings}
+      \field{booktitle}{IEEE Intelligent Vehicles Symposium}
       \field{month}{6}
       \field{title}{{Simulation-based Adversarial Test Generation for Autonomous Vehicles with Machine Learning Components}}
       \field{volume}{2018-June}
@@ -1066,7 +1046,7 @@
       \field{sortinithash}{36a2444f5238e0dcf4bb59704df6624d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Conference on Intelligent Transportation Systems, Proceedings, ITSC}
+      \field{journaltitle}{IEEE Conference on Intelligent Transportation Systems}
       \field{title}{{Defining and Substantiating the Terms Scene, Situation, and Scenario for Automated Driving}}
       \field{volume}{2015-Oct}
       \field{year}{2015}

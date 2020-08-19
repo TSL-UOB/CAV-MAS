@@ -154,6 +154,11 @@ D.~Araiza-Illan, A.~G. Pipe, and K.~Eder, ``{Intelligent agent-based
 E.~P. Enoiu and M.~Frasheri, ``{Test Agents: The Next Generation of Test
   Cases},'' {\em 2nd IEEE Workshop on NEXt level of Test Automation}, 2019.
 
+\bibitem{EURO-NCAP}
+EURO-NCAP, ``{EUROPEAN NEW CAR ASSESSMENT PROGRAMME (Euro NCAP) V2.0.4},''
+  tech. rep.
+\newblock Accessed: 2019-12-13.
+
 \bibitem{Tuncali2018}
 C.~E. Tuncali, G.~Fainekos, H.~Ito, and J.~Kapinski, ``{Simulation-based
   Adversarial Test Generation for Autonomous Vehicles with Machine Learning

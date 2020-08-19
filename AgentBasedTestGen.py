@@ -432,9 +432,6 @@ class Environment(object):
 		cv2.moveWindow('frame', 0, 0)
 		key = cv2.waitKey(1)
 		if key == 27: sys.exit()
-        
-
-
 #---------------------------------------------------------------------------------------------
 #-------------------------------- ~  Feature Based Agent ~ -----------------------------------
 #---------------------------------------------------------------------------------------------
@@ -602,9 +599,6 @@ class FeatAgent:
 #---------------------------------------------------------------------------------------------
 #---------------------------------------------------------------------------------------------
 
-
-
-
 def randomStart(startLocations, simTime, nA, agentState, rsLog, pLog, nExp):
 	#print("### randomStart ###")
 	# initialise each agent with random position based on "deadzone"
@@ -627,9 +621,6 @@ def randomStart(startLocations, simTime, nA, agentState, rsLog, pLog, nExp):
 	index = "%4i, %4i, %4i" % (0, nExp, simTime)
 	rsLog.write(rsindex + log_string + "\n")
 	pLog.write(index + log_string + "\n")
-
-
-	
 def moveGen(simTime, agentID, rLog):
 
 	ran = random.randint(1,5)
@@ -652,8 +643,6 @@ def moveGen(simTime, agentID, rLog):
 	#store the random numbers to check consistency	
 	rLog.write("%7i, %4i \n" % (simTime, ran)) 
 	return x,y #WARNING X and Y are used the wrong way around
-
-
 def randomMove(simTime, nA, agentState, pLog, rLog, nExp, AV_y):
 	#print("### randomMove ###")
 	log_string = ""
@@ -699,9 +688,6 @@ def randomMove(simTime, nA, agentState, pLog, rLog, nExp, AV_y):
 		#print("initial state for agent", agentID," is ",agentState[simTime,agentID,:])
 	index = "%4i, %4i, %4i" % (nExp, simTime, AV_y)
 	pLog.write(index + log_string + "\n")
-
-
-
 # Agent walks along pavement and randomly choose to cross the road
 def randomBehaviour(simTime, nA, agentState, pLog, rLog, nExp, AV_y, diag=True):
 	
@@ -816,10 +802,6 @@ def randomBehaviour(simTime, nA, agentState, pLog, rLog, nExp, AV_y, diag=True):
 	# write position log
 	index = "%4i, %4i, %4i" % (nExp, simTime, AV_y)
 	pLog.write(index + log_string + "\n")
-
-
-
-
 # Agent walks along pavement and randomly choose to cross the road
 def Proximity(simTime, nA, agentState, pLog, rLog, nExp, AV_y, trigger_radius=15, diag=False):
 	
@@ -913,15 +895,6 @@ def Proximity(simTime, nA, agentState, pLog, rLog, nExp, AV_y, trigger_radius=15
 	# write position log
 	index = "%4i, %4i, %4i" % (nExp, simTime, AV_y)
 	pLog.write(index + log_string + "\n")	
-
-
-
-
-
-
-
-
-
 # Agent walks along pavement and randomly choose to cross the road
 def Election(simTime, nA, agentState, XR_WD_status, pLog, rLog, nExp, AV_y, CP=True, ECA=True, trigger_radius=15, diag=True):
 	from scipy.spatial import distance #for cityblock distance
@@ -1180,9 +1153,6 @@ def Election(simTime, nA, agentState, XR_WD_status, pLog, rLog, nExp, AV_y, CP=T
 	# write position log
 	index = "%4i, %4i, %4i" % (nExp, simTime, AV_y)
 	pLog.write(index + log_string + "\n")	
-
-
-
 def detectAction(crossing_road, walk_direction,simTime,agentID, diag=False):	
 
 	old2_ax = agentState[simTime-2,agentID,0]
@@ -1219,9 +1189,6 @@ def detectAction(crossing_road, walk_direction,simTime,agentID, diag=False):
 	if old_ay==gridW-1:
 		walk_direction = -1
 	return crossing_road, walk_direction
-
-
-
 def checkEdge(gridW, gridH, old_ax, old_ay, new_x, new_y, diag=False):	
 	dx, dy = 0,0
 	if (new_y == 0) or (new_y > gridW-1):
@@ -1233,8 +1200,6 @@ def checkEdge(gridW, gridH, old_ax, old_ay, new_x, new_y, diag=False):
 		new_x = int(old_ax + dx)
 		if diag:print("Agent at x-limit reversing")
 	return new_x, new_y
-
-
 def moveXR(old_x, old_y, XR, WD, diag=False):
 	# Move the agent based on the walk and crossing direction
 	dx, dy = 0, 0
@@ -1260,7 +1225,6 @@ def moveXR(old_x, old_y, XR, WD, diag=False):
 	new_x = int(old_x + dx)
 	new_y = int(old_y + dy)
 	return new_x, new_y
-
 #Check penalties and living costs
 def checkReward(nA, simTime, agentState, agentScores, nExp, roadPenaltyMaxtrix):
 	for agentID in range (0,nA):
@@ -1280,7 +1244,6 @@ def checkReward(nA, simTime, agentState, agentScores, nExp, roadPenaltyMaxtrix):
 		if reward==vt: break #no double accounting, only first agent counts!
 	# print("###REWARD### ID curr_score, reward ",agentID, curr_score, reward)
 	return reward
-
 def checkValidTest(nA, simTime, agentState):
 	for agentID in range (0,nA):
 		Ag_x = int(agentState[simTime,agentID,0])
@@ -1291,12 +1254,10 @@ def checkValidTest(nA, simTime, agentState):
 		else:
 			done = False
 		return done
-
 def moveAV(gridW,gridH,AV_y):
 	AVpositionMaxtrix = np.zeros(shape=(gridH,gridW))
 	AVpositionMaxtrix[[2,3,4,5],AV_y]=1
 	return AVpositionMaxtrix
-
 def MASrender(simTime, nA, agentState, score):
 		
 	frame = env.frame.copy()		
@@ -1353,7 +1314,6 @@ def MASrender(simTime, nA, agentState, score):
 	cv2.moveWindow('frame', 0, 0)
 	key = cv2.waitKey(1)
 	if key == 27: sys.exit()
-
 def initLocation(nA, nTests):
 	startLocations = np.zeros(shape=(nTests,nA*2))
 	# print("startLocations",startLocations)

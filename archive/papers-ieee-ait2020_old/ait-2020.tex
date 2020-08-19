@@ -1,7 +1,4 @@
 \documentclass[letterpaper, 10 pt, journal, twoside]{IEEEtran}
-%DIF LATEXDIFF DIFFERENCE FILE
-%DIF DEL old.tex   Mon Jan 20 08:56:24 2020
-%DIF ADD new.tex   Fri Jan 17 13:27:29 2020
 %\documentclass[journal]{IEEEtran}
 \usepackage[maxnames=6,firstinits=true,doi=false,url=true,isbn=false]{biblatex}
 \addbibresource{ait-2020.bib}
@@ -18,66 +15,6 @@
 \usepackage{breakurl}
 
 %\pagenumbering{gobble} %suppresses page numbers
-%DIF PREAMBLE EXTENSION ADDED BY LATEXDIFF
-%DIF UNDERLINE PREAMBLE %DIF PREAMBLE
-\RequirePackage[normalem]{ulem} %DIF PREAMBLE
-\RequirePackage{color}\definecolor{RED}{rgb}{1,0,0}\definecolor{BLUE}{rgb}{0,0,1} %DIF PREAMBLE
-\providecommand{\DIFadd}[1]{{\protect\color{blue}\uwave{#1}}} %DIF PREAMBLE
-\providecommand{\DIFdel}[1]{{\protect\color{red}\sout{#1}}}                      %DIF PREAMBLE
-%DIF SAFE PREAMBLE %DIF PREAMBLE
-\providecommand{\DIFaddbegin}{} %DIF PREAMBLE
-\providecommand{\DIFaddend}{} %DIF PREAMBLE
-\providecommand{\DIFdelbegin}{} %DIF PREAMBLE
-\providecommand{\DIFdelend}{} %DIF PREAMBLE
-%DIF FLOATSAFE PREAMBLE %DIF PREAMBLE
-\providecommand{\DIFaddFL}[1]{\DIFadd{#1}} %DIF PREAMBLE
-\providecommand{\DIFdelFL}[1]{\DIFdel{#1}} %DIF PREAMBLE
-\providecommand{\DIFaddbeginFL}{} %DIF PREAMBLE
-\providecommand{\DIFaddendFL}{} %DIF PREAMBLE
-\providecommand{\DIFdelbeginFL}{} %DIF PREAMBLE
-\providecommand{\DIFdelendFL}{} %DIF PREAMBLE
-\newcommand{\DIFscaledelfig}{0.5}
-%DIF HIGHLIGHTGRAPHICS PREAMBLE %DIF PREAMBLE
-\RequirePackage{settobox} %DIF PREAMBLE
-\RequirePackage{letltxmacro} %DIF PREAMBLE
-\newsavebox{\DIFdelgraphicsbox} %DIF PREAMBLE
-\newlength{\DIFdelgraphicswidth} %DIF PREAMBLE
-\newlength{\DIFdelgraphicsheight} %DIF PREAMBLE
-% store original definition of \includegraphics %DIF PREAMBLE
-\LetLtxMacro{\DIFOincludegraphics}{\includegraphics} %DIF PREAMBLE
-\newcommand{\DIFaddincludegraphics}[2][]{{\color{blue}\fbox{\DIFOincludegraphics[#1]{#2}}}} %DIF PREAMBLE
-\newcommand{\DIFdelincludegraphics}[2][]{% %DIF PREAMBLE
-\sbox{\DIFdelgraphicsbox}{\DIFOincludegraphics[#1]{#2}}% %DIF PREAMBLE
-\settoboxwidth{\DIFdelgraphicswidth}{\DIFdelgraphicsbox} %DIF PREAMBLE
-\settoboxtotalheight{\DIFdelgraphicsheight}{\DIFdelgraphicsbox} %DIF PREAMBLE
-\scalebox{\DIFscaledelfig}{% %DIF PREAMBLE
-\parbox[b]{\DIFdelgraphicswidth}{\usebox{\DIFdelgraphicsbox}\\[-\baselineskip] \rule{\DIFdelgraphicswidth}{0em}}\llap{\resizebox{\DIFdelgraphicswidth}{\DIFdelgraphicsheight}{% %DIF PREAMBLE
-\setlength{\unitlength}{\DIFdelgraphicswidth}% %DIF PREAMBLE
-\begin{picture}(1,1)% %DIF PREAMBLE
-\thicklines\linethickness{2pt} %DIF PREAMBLE
-{\color[rgb]{1,0,0}\put(0,0){\framebox(1,1){}}}% %DIF PREAMBLE
-{\color[rgb]{1,0,0}\put(0,0){\line( 1,1){1}}}% %DIF PREAMBLE
-{\color[rgb]{1,0,0}\put(0,1){\line(1,-1){1}}}% %DIF PREAMBLE
-\end{picture}% %DIF PREAMBLE
-}\hspace*{3pt}}} %DIF PREAMBLE
-} %DIF PREAMBLE
-\LetLtxMacro{\DIFOaddbegin}{\DIFaddbegin} %DIF PREAMBLE
-\LetLtxMacro{\DIFOaddend}{\DIFaddend} %DIF PREAMBLE
-\LetLtxMacro{\DIFOdelbegin}{\DIFdelbegin} %DIF PREAMBLE
-\LetLtxMacro{\DIFOdelend}{\DIFdelend} %DIF PREAMBLE
-\DeclareRobustCommand{\DIFaddbegin}{\DIFOaddbegin \let\includegraphics\DIFaddincludegraphics} %DIF PREAMBLE
-\DeclareRobustCommand{\DIFaddend}{\DIFOaddend \let\includegraphics\DIFOincludegraphics} %DIF PREAMBLE
-\DeclareRobustCommand{\DIFdelbegin}{\DIFOdelbegin \let\includegraphics\DIFdelincludegraphics} %DIF PREAMBLE
-\DeclareRobustCommand{\DIFdelend}{\DIFOaddend \let\includegraphics\DIFOincludegraphics} %DIF PREAMBLE
-\LetLtxMacro{\DIFOaddbeginFL}{\DIFaddbeginFL} %DIF PREAMBLE
-\LetLtxMacro{\DIFOaddendFL}{\DIFaddendFL} %DIF PREAMBLE
-\LetLtxMacro{\DIFOdelbeginFL}{\DIFdelbeginFL} %DIF PREAMBLE
-\LetLtxMacro{\DIFOdelendFL}{\DIFdelendFL} %DIF PREAMBLE
-\DeclareRobustCommand{\DIFaddbeginFL}{\DIFOaddbeginFL \let\includegraphics\DIFaddincludegraphics} %DIF PREAMBLE
-\DeclareRobustCommand{\DIFaddendFL}{\DIFOaddendFL \let\includegraphics\DIFOincludegraphics} %DIF PREAMBLE
-\DeclareRobustCommand{\DIFdelbeginFL}{\DIFOdelbeginFL \let\includegraphics\DIFdelincludegraphics} %DIF PREAMBLE
-\DeclareRobustCommand{\DIFdelendFL}{\DIFOaddendFL \let\includegraphics\DIFOincludegraphics} %DIF PREAMBLE
-%DIF END PREAMBLE EXTENSION ADDED BY LATEXDIFF
 
 \begin{document}
 \title{An Agency-Directed Approach to Test Generation for Simulation-based Autonomous Vehicle Verification}
@@ -266,7 +203,7 @@ A geospacial database logs the AV and all other actors to enable post-simulation
 \begin{figure}[!t]
 	\centering
 \includegraphics[width=0.48\textwidth]{TestBenchMonotone.pdf}
-	\caption{Testbency Architecture.}
+	\caption{Testbench Architecture.}
 	\label{f:testbench}
 \end{figure}
 
@@ -382,16 +319,11 @@ Test agents have also been proposed by Enoiu et al.~\cite{Enoiu2019} for regress
 % =======================================================
 %------------------- Method -----------------------------
 \section{Case Study} \label{s:case-study}
-
+ 
 This section describes a case study to explore the proposed agent-based test generation method.%
 \footnote{The code used is available at \url{github.com/TSL-UOB/CAV-MAS}.} %	
 %
-Our aim is to generate tests that exercise an assertion that requires the AV to avoid collisions with other road users, provided that such road user, a pedestrian in this case, intrudes in the path of the AV in such a way that a collision can be avoided by the AV either by braking or manoeuvring. \DIFaddbegin \DIFadd{This is similar to standardised testing, e.g. Euro-NCAP CPNA-25~\mbox{%DIFAUXCMD
-\cite{EURO-NCAP}}\hspace{0pt}%DIFAUXCMD
-. }\DIFaddend In Fig.~\ref{gridRoad} this is illustrated by the \textit{precondition zone}, i.e.\ the area of interest in which the assertion is activated.
-\DIFdelbegin %DIFDELCMD < \todo[inline]{This is similar to standardised testing, e.g. Euro-NCAP CPNA-25~\cite{EURO-NCAP}}
-%DIFDELCMD < %%%
-\DIFdelend 
+Our aim is to generate tests that exercise an assertion that requires the AV to avoid collisions with other road users, provided that such road user, a pedestrian in this case, intrudes in the path of the AV in such a way that a collision can be avoided by the AV either by braking or manoeuvring. This is similar to standardised testing, e.g. Euro-NCAP CPNA-25~\cite{EURO-NCAP}. In Fig.~\ref{gridRoad} this is illustrated by the \textit{precondition zone}, i.e.\ the area of interest in which the assertion is activated.
 
 
 In the following, we shall term tests that activate the assertion \textit{successful tests}; these count towards assertion coverage. 
@@ -449,14 +381,12 @@ At the start of a test, pedestrians are randomly located onto the pavement area 
 
 We distinguish two main classes of behaviours, random and agency-directed, see also Table~\ref{t:ResultsTable}. For the random class, \textit{random} behaviour means that the test agent can perform any random action at each simulation tick, with the available actions being: do nothing (stand still), move forward, backward, left or right. In \textit{constrained random} mode, the pedestrian is initially walking along the pavement and has only one action available; to randomly choose when to cross the road. The constrained random behaviour is included so that a comparison between crossing the road at a targeted or at a random time can be made. 
 
-The second class of behaviours is agency-directed, taking into account the agent's perceptions for strategic planning. Agents are initially walking along the pavement as in constrained random mode. The \textit{proximity} behaviour instructs the agent to cross the road when the AV is within a certain radius. %DIF > 
-%DIF > 
-\DIFaddbegin \DIFadd{The trigger radius is 15 cells using city-block measure and is the same value for both }\textit{\DIFadd{proximity}}  \DIFadd{and }\textit{\DIFadd{election}} \DIFadd{behaviours.
-%DIF > 
-}\DIFaddend The \textit{election} behaviour ranks agents within a proximity radius to the AV and elects the agent with the shortest distance to the AV. The major difference between the agent-directed behaviours is that the \textit{election} behaviour will only elect a single agent to cross the road whereas the \textit{proximity} behaviour will result any number of agents crossing the road as long as they are within range.
-\DIFdelbegin %DIFDELCMD < \todo[inline]{Specify what the trigger radius is: 15 cells using city-block measure, note that this is a model parameter}
-%DIFDELCMD < %%%
-\DIFdelend % Thus, the \textit{proximity} behaviour results in agents that will step into the road whenever a vehicle is nearby. Moreover, all nearby pedestrians are drawn to a passing vehicle.
+The second class of behaviours is agency-directed, taking into account the agent's perceptions for strategic planning. Agents are initially walking along the pavement as in constrained random mode. The \textit{proximity} behaviour instructs the agent to cross the road when the AV is within a certain radius. %
+%
+The \textit{election} behaviour ranks agents within a proximity radius to the AV and elects the agent with the shortest distance to the AV. %
+The trigger radius is 15 cells using city-block measure and is the same value for both \textit{proximity}  and \textit{election} behaviours. %
+The major difference between the agent-directed behaviours is that the \textit{election} behaviour will only elect a single agent to cross the road whereas the \textit{proximity} behaviour will result any number of agents crossing the road as long as they are within range.
+% Thus, the \textit{proximity} behaviour results in agents that will step into the road whenever a vehicle is nearby. Moreover, all nearby pedestrians are drawn to a passing vehicle.
 %
 While the \textit{proximity} behaviour may lead to the desired coverage it is less realistic than the \textit{election} behaviour. 
 %
@@ -474,11 +404,11 @@ In comparison, when using more intelligent, agency-directed behaviour, we expect
 %------------------- Scoring -----------------------------
 \subsection{Scoring}
 
-In an attempt to encourage more realistic agent behaviour, a basic scoring system is used to direct agent behaviour by penalising or rewarding certain actions. In particular, a living cost of one is charged for each elapsed time step to promote shorter tests, and a penalty of five is issued for each time step that an agent spends in the road. %DIF > 
-%DIF > 
-\DIFaddbegin \DIFadd{This is based on the general observation that most pedestrians do not predominately walk in the road but rather cross over it and hence higher scores are associated with less time spent in the road.
-%DIF > 
-}\DIFaddend A reward of 100 is given if the agent enters the AV's \textit{precondition zone} More sophisticated scoring systems will be explored in our future work. 
+In an attempt to encourage more realistic agent behaviour, a basic scoring system is used to direct agent behaviour by penalising or rewarding certain actions. In particular, a living cost of one is charged for each elapsed time step to promote shorter tests, and a penalty of five is issued for each time step that an agent spends in the road. %
+%
+This is based on the general observation that most pedestrians do not predominately walk in the road but rather cross over it and hence higher scores are associated with less time spent in the road.
+%
+A reward of 100 is given if the agent enters the AV's \textit{precondition zone} More sophisticated scoring systems will be explored in our future work. 
 
 % KIE: unclear :(
 % The scoring should reflect the benefits of the method against the desire to generate good tests~\cite{fewster1999software}.
@@ -527,7 +457,7 @@ For a single agent, scores are similar for all agent behaviours, as only success
 
 % \todo[inline]{why no variance for nA=1 in random? this is counter intuitive, it suggests random agents that succeed score only the highest value score!} 
 
-As $nA$ increases, the random agents are more often found in the road and hence their average score decreases. In contrast, the directed agents are only found crossing the road when they deem fit, and they remain on the pavement at all other times, keeping the score much higher and resulting in more realistic test cases\DIFaddbegin \DIFadd{. The basis for this rationale is from the general observation that people walk on pavements rather than roads and hence walking in the road is penalised}\DIFaddend .
+As $nA$ increases, the random agents are more often found in the road and hence their average score decreases. In contrast, the directed agents are only found crossing the road when they deem fit, and they remain on the pavement at all other times, keeping the score much higher and resulting in more realistic test cases. The basis for this rationale is from the general observation that people walk on pavements rather than roads and hence walking in the road is penalised.
 %
 % \todo[inline]{include the theoretical max score line} Note that the directed agent class are close to the theoretical maximum score, Fig.~\ref{AgentScore}(dashed line). 
 %
